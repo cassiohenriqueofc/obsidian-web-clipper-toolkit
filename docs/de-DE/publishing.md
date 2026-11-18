@@ -1,20 +1,9 @@
-# Veröffentlichung und Metadaten
+# Veröffentlichung und Indexierung
 
-Zuerst lokal ansehen. Öffentliche Bereitstellung und Sichtbarkeitsänderungen benötigen eine gesonderte Freigabe. Standard ist noindex. Die tatsächliche freigegebene HTTPS-URL angeben, um Canonical-, Open-Graph-, hreflang- und Sitemap-Angaben zu erzeugen. llms-Dateien garantieren keine Platzierung.
+[English](../en-US/publishing.md) · [Startseite](../../README.md)
 
-```bash
-python3 scripts/build_site.py
-python3 -m http.server 8000 --bind 127.0.0.1 --directory site
-```
+GitHub Pages ist unter `https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/` eingerichtet. Der Workflow erstellt die siebensprachige Website mit Canonical-, Open-Graph/Twitter-, JSON-LD- und Sitemap-Angaben sowie indexierbaren robots-Regeln. Nach jedem Push auf `main` wird sie veröffentlicht. Prüfe den ersten Actions-Lauf, bevor die Website als verfügbar gilt.
 
-Demodaten verwenden. Lokale Einstellungen, Zugangsdaten, private Notizen und persönliche Pfade ausschließen. Ein privates Repository schützt kein bereits eingechecktes Geheimnis. Der Rechteinhaber hat nur die unten genannte öffentliche Zuordnung genehmigt.
+Lokaler Build: `python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable`. Das Skript veröffentlicht nicht; GitHub Actions übernimmt das Deployment.
 
-[Projektleitfaden](guide.md)
-
-Das README ist gerendertes Markdown; Open-Graph-, Twitter-, Canonical- und JSON-LD-
-Metadaten gehören zur generierten Website. Das kompakte Vorschaubild liegt unter
-[assets/social-preview.jpg](../../assets/social-preview.jpg). Bei Bedarf kann es
-unter GitHub Settings → Social preview hochgeladen werden. GitHub-Themennamen sind
-auch bei privaten Repositories öffentlich; erst nach Freigabe hinzufügen. Google
-bestätigt, dass llms.txt die Sichtbarkeit und das Ranking in Google Search nicht
-verändert und keine besondere Schema.org-Auszeichnung für die KI-Suche erforderlich ist.
+Das Open-Graph-Bild ist statisch (`assets/social-preview.jpg`); das erklärende GIF ist unabhängig. About-Text, Themen und GitHub-Social-Bild werden in Settings verwaltet; die aktuelle Verbindung kann sie nicht ändern.

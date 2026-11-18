@@ -2,7 +2,7 @@
 
 ## Objective
 
-Deliver a private GitHub project and sanitized downloadable 0.1.0 ZIP for three
+Maintain a public GitHub project and sanitized versioned ZIP for three
 Obsidian Web Clipper templates, plus the explicitly requested reusable starter.
 
 ## Confirmed constraints
@@ -12,7 +12,7 @@ Obsidian Web Clipper templates, plus the explicitly requested reusable starter.
 - Demo-only tracked configuration. Owner's explicitly approved attribution only.
 - Seven docs locales: en-US, pt-BR, es-AR, es-MX, es-ES, de-DE and fr-FR.
 - Projects default to local Git clone plus private remote; exclude ordinary chat/tasks.
-- No public site deployment or visibility changes. No automatic copy or specialist template.
+- Public repository visibility and GitHub Pages deployment/indexing are owner-authorized. No automatic copy or specialist template.
 - Custom noncommercial license; no forced publication of private edits.
 
 ## Relevant files
@@ -33,9 +33,9 @@ Inspect the repository and actual remote state, read the release checks, and
 continue only outstanding work. Do not replay this chat, regenerate completed
 templates, invent tests, or interpret deferred phases as authorized.
 
-Initial private push completed. Preventative scaffold privacy fixes and the independent model review are included before the release package. Next: verify final remote commit/tag/release assets; keep public hosting disabled.
+Initial private push completed. Preventative scaffold privacy fixes and the independent model review are included before the release package. Next: verify final remote commit/tag/release assets; configure public hosting after explicit owner approval.
 
 
 ## 0.1.1 update
 
-The owner approved a repository rename to obsidian-web-clipper-toolkit, a README/site refresh, search metadata preparation, and a new sanitized ZIP. The repository remains private and the site remains noindex.
+The owner approved a repository rename to obsidian-web-clipper-toolkit, a README/site refresh, search metadata preparation, and a new sanitized ZIP. GitHub Pages deployment and indexing are authorized; check Actions before treating the site as live.

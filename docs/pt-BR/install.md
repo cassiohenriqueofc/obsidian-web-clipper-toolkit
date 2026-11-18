@@ -13,7 +13,7 @@ Baixe o ZIP da versão e SHA256SUMS.txt no GitHub autenticado. Compare o hash an
 de extrair em uma pasta vazia ou previamente copiada para backup:
 
 ```powershell
-$archive = Join-Path $HOME "Downloads\obsidian-web-clipper-v0.1.1.zip"
+$archive = Join-Path $HOME "Downloads\obsidian-web-clipper-v0.1.3.zip"
 Get-FileHash -Algorithm SHA256 -LiteralPath $archive
 $projectDir = Join-Path $env:LOCALAPPDATA "Programs\Demo Notes\obsidian-web-clipper"
 New-Item -ItemType Directory -Force -Path $projectDir | Out-Null
@@ -35,9 +35,9 @@ Safari é específico do macOS. Em uma pasta nova:
 ```bash
 mkdir -p "$HOME/Projects/obsidian-web-clipper"
 cd "$HOME/Projects/obsidian-web-clipper"
-shasum -a 256 "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+shasum -a 256 "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 # Compare com o checksum da versão.
-unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 python3 scripts/validate.py
 python3 scripts/configure_templates.py --vault 'Demo Vault' --folder 'clippings'
 ```
@@ -50,9 +50,9 @@ compatível. Com Python 3.10+ e unzip disponíveis:
 ```bash
 mkdir -p "$HOME/Projects/obsidian-web-clipper"
 cd "$HOME/Projects/obsidian-web-clipper"
-sha256sum "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+sha256sum "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 # Compare com o checksum da versão.
-unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 python3 scripts/validate.py
 python3 scripts/configure_templates.py --vault 'Demo Vault' --folder 'clippings'
 ```

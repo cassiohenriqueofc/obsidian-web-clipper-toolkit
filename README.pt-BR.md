@@ -10,7 +10,7 @@
 
 | Versão | Atualizado em | Documentação | Idioma dos templates | Licença |
 | --- | --- | --- | --- | --- |
-| 0.1.2 | 18 de novembro de 2026 | en-US · pt-BR · es-AR · es-MX · es-ES · de-DE · fr-FR | Inglês | Código disponível, uso não comercial |
+| 0.1.3 | 18 de novembro de 2026 | en-US · pt-BR · es-AR · es-MX · es-ES · de-DE · fr-FR | Inglês | Código disponível, uso não comercial |
 
 ## Introdução e descrição
 
@@ -19,8 +19,7 @@ geram explicações em Markdown usando os dados fornecidos pela página, enquant
 o conteúdo original extraído continua disponível na nota. Escolha uma captura
 detalhada, um formato compacto com fonte no rodapé ou um arquivo sem IA.
 
-Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.2 é uma
-versão privada para revisão. As verificações locais passaram; execução real do
+Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.3 é uma publicação pública; [acesse o site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/). O deploy depende da primeira execução bem-sucedida do Actions. As verificações locais passaram; execução real do
 provedor, gravação nos três sistemas e renderização no Obsidian ainda precisam
 ser verificadas. Referência informada: Web Clipper 1.7.1 e Obsidian 1.15.1 no
 Windows. Isso não equivale a um teste completo de compatibilidade.
@@ -125,7 +124,7 @@ Open Graph é o conjunto separado de metadados para prévias sociais.
 As páginas têm títulos descritivos, navegação por idioma, dados estruturados
 e conteúdo estático. Os arquivos `llms.txt` e `llms-full.txt` ajudam ferramentas
 compatíveis a encontrar a documentação; não garantem indexação ou posições.
-O site fica em `noindex` enquanto aguarda revisão. URLs canônicas, alternativas
+O site está publicado no GitHub Pages, com URLs canônicas, metadados Open Graph e Twitter, JSON-LD, sitemap e robots indexável. URLs canônicas, alternativas
 e de Open Graph absolutas são geradas quando a URL real de publicação for informada.
 
 ## Limites importantes
@@ -171,6 +170,6 @@ python3 scripts/new_project.py --proposal project-template/Proposal.md --output 
 <details>
 <summary>Animated workflow / Fluxo animado</summary>
 
-![Page to template, manual interpretation, source-preserving Markdown and private Git versions](assets/workflow.gif)
+![Page capture, manual interpretation, source-preserving Markdown and Git version history](assets/workflow.gif)
 
 </details>

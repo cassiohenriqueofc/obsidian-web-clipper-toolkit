@@ -1,16 +1,16 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.2.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.3.
 
-Private review release. No live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
+Public GitHub repository. Pages deployment is configured; no live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 
-- [en-US documentation](en-US/)
-- [pt-BR documentation](pt-BR/)
-- [es-AR documentation](es-AR/)
-- [es-MX documentation](es-MX/)
-- [es-ES documentation](es-ES/)
-- [de-DE documentation](de-DE/)
-- [fr-FR documentation](fr-FR/)
+- [en-US documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/en-US/)
+- [pt-BR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/pt-BR/)
+- [es-AR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-AR/)
+- [es-MX documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-MX/)
+- [es-ES documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-ES/)
+- [de-DE documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/de-DE/)
+- [fr-FR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/fr-FR/)
 - [Repository](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit)
 - [License](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/LICENSE)
 - [Handoff](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/handoff.md)

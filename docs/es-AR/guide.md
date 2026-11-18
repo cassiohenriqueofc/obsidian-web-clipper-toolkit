@@ -2,7 +2,7 @@
 
 [English (US)](../en-US/guide.md) · [Português (Brasil)](../pt-BR/guide.md) · [Español (Argentina)](../es-AR/guide.md) · [Español (México)](../es-MX/guide.md) · [Español (España)](../es-ES/guide.md) · [Deutsch](../de-DE/guide.md) · [Français](../fr-FR/guide.md)
 
-Actualizado: 2026-11-18 · 0.1.2 · Versión privada para revisión
+Actualizado: 2026-11-18 · 0.1.3 · Versión pública · GitHub Pages configurado
 
 ## Objetivo
 
@@ -60,7 +60,7 @@ Conservá el clon local completo y el remoto privado. Hacé commit y push despu�
 
 ## Publicación y metadatos
 
-Probá la vista local primero. La publicación y los cambios de visibilidad requieren aprobación separada. El sitio usa noindex por defecto. Indicá la URL HTTPS real y aprobada para generar canonical, Open Graph, hreflang y sitemap. Los archivos llms no garantizan posicionamiento.
+El workflow de GitHub Pages está configurado para https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/. La primera ejecución debe terminar antes de considerar el sitio publicado. La versión publicada usa canonical, Open Graph/Twitter, hreflang, JSON-LD, sitemap y robots indexable. Los archivos llms no garantizan posicionamiento.
 
 ## Validación y límites
 

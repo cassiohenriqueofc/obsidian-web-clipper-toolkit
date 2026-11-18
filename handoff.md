@@ -1,10 +1,9 @@
-# Project handoff — 0.1.1
+# Project handoff — 0.1.3
 
 ## Current state
 
 Three general JSON templates and a prompt map are available for owner review.
-Project packaging and the first private repository release are authorized.
-Specialist design-system work remains deferred. Public hosting is not authorized.
+The public repository, v0.1.2 release, and GitHub Pages deployment are authorized. The site now has a deploy workflow and indexable metadata. Confirm the Pages workflow run before treating deployment as live. Specialist design-system work remains deferred.
 
 ## Confirmed choices
 

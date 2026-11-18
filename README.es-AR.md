@@ -7,7 +7,7 @@
 
 [Instalación](docs/es-AR/install.md) · [Plantillas](templates/) · [Mapa de prompts](docs/es-AR/prompt-map.md) · [Ejemplos](examples/) · [Licencia](LICENSE)
 
-Actualizado: 2026-11-18 · 0.1.2 · Versión privada para revisión
+Actualizado: 2026-11-18 · 0.1.3 · Versión pública · GitHub Pages configurado
 
 ## Resumen
 
@@ -80,6 +80,6 @@ Licencia de código disponible para uso no comercial. El uso comercial requiere 
 <details>
 <summary>Animated workflow / Fluxo animado</summary>
 
-![Page to template, manual interpretation, source-preserving Markdown and private Git versions](assets/workflow.gif)
+![Page to template, manual interpretation, source-preserving Markdown and version control with Git](assets/workflow.gif)
 
 </details>

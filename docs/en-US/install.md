@@ -17,7 +17,7 @@ Download the versioned release ZIP from the private repository while signed in.
 Keep its companion SHA256SUMS.txt and verify before extraction:
 
 ```powershell
-$archive = Join-Path $HOME "Downloads\obsidian-web-clipper-v0.1.1.zip"
+$archive = Join-Path $HOME "Downloads\obsidian-web-clipper-v0.1.3.zip"
 Get-FileHash -Algorithm SHA256 -LiteralPath $archive
 # Compare the result with SHA256SUMS.txt from the same release.
 $projectDir = Join-Path $env:LOCALAPPDATA "Programs\Demo Notes\obsidian-web-clipper"
@@ -44,9 +44,9 @@ browser extension from the official Clipper page. Use a new extraction folder:
 ```bash
 mkdir -p "$HOME/Projects/obsidian-web-clipper"
 cd "$HOME/Projects/obsidian-web-clipper"
-shasum -a 256 "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+shasum -a 256 "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 # Compare with the release checksum before extracting.
-unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 python3 scripts/validate.py
 python3 scripts/configure_templates.py --vault 'Demo Vault' --folder 'clippings'
 ```
@@ -59,9 +59,9 @@ Install Web Clipper in a supported browser. With Python 3.10+ and unzip availabl
 ```bash
 mkdir -p "$HOME/Projects/obsidian-web-clipper"
 cd "$HOME/Projects/obsidian-web-clipper"
-sha256sum "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+sha256sum "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 # Compare with the release checksum before extracting.
-unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.1.zip"
+unzip -n "$HOME/Downloads/obsidian-web-clipper-v0.1.3.zip"
 python3 scripts/validate.py
 python3 scripts/configure_templates.py --vault 'Demo Vault' --folder 'clippings'
 ```
