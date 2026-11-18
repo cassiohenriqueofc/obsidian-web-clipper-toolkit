@@ -107,4 +107,4 @@ No claim of zero secret risk or universal webpage capture is made.
 - PR #6 merged to `main` as `57c92624889c5f27b29ae3538dc4a2328ce95879`.
 - The post-merge validate and Pages build runs failed before starting steps; GitHub reports the account billing lock. The deploy job was skipped.
 - GitHub Pages API site creation returned HTTP 403 (`Resource not accessible by integration`). The Pages URL returned HTTP 404 after merge. No deployment or indexing is claimed.
-- The sanitized 0.1.4 ZIP, manifest, and checksums were uploaded on `artifacts/v0.1.4`; the manifest records source commit `87149ae`.
+- The sanitized 0.1.4 ZIP, manifest, and checksums are uploaded on `artifacts/v0.1.4`; the manifest identifies its source commit.
