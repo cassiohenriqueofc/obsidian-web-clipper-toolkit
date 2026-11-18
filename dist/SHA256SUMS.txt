@@ -1,0 +1,2 @@
+1a21bff8dc7f2ec64cc0bba2e355020a7bb0f52963c73d077888b34dc6002c37  obsidian-web-clipper-v0.1.3.zip
+455fe91afbeb6541c9d567d50b5173b2c16f4011ecccb118b3134e6128118814  release-manifest.json
