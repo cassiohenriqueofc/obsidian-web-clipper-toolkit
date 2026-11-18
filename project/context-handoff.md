@@ -38,4 +38,4 @@ Initial private push completed. Preventative scaffold privacy fixes and the inde
 
 ## 0.1.1 update
 
-The owner approved a repository rename to obsidian-web-clipper-toolkit, a README/site refresh, search metadata preparation, and a new sanitized ZIP. GitHub Pages deployment and indexing are authorized; check Actions before treating the site as live.
+The owner approved a repository rename to obsidian-web-clipper-toolkit, a README/site refresh, search metadata preparation, and a new sanitized ZIP. GitHub Pages deployment and indexing are authorized; deployment remains blocked by a GitHub account billing lock.

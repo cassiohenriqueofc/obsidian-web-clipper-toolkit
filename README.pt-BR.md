@@ -19,7 +19,7 @@ geram explicações em Markdown usando os dados fornecidos pela página, enquant
 o conteúdo original extraído continua disponível na nota. Escolha uma captura
 detalhada, um formato compacto com fonte no rodapé ou um arquivo sem IA.
 
-Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.3 é uma publicação pública; [acesse o site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/). O deploy depende da primeira execução bem-sucedida do Actions. As verificações locais passaram; execução real do
+Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.3 é uma publicação pública; URL planejada do site: `https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/`. O GitHub Actions está bloqueado por um problema de cobrança informado pelo GitHub; o site ainda não está publicado. As verificações locais passaram; execução real do
 provedor, gravação nos três sistemas e renderização no Obsidian ainda precisam
 ser verificadas. Referência informada: Web Clipper 1.7.1 e Obsidian 1.15.1 no
 Windows. Isso não equivale a um teste completo de compatibilidade.

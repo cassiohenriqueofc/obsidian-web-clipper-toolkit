@@ -2,7 +2,7 @@
   <a href="README.md"><strong>English (US)</strong></a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es-AR.md">Español (Argentina)</a> · <a href="README.es-MX.md">Español (México)</a> · <a href="README.es-ES.md">Español (España)</a> · <a href="README.de-DE.md">Deutsch</a> · <a href="README.fr-FR.md">Français</a>
 </p>
 
-<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Live multilingual site</a> · <a href="CHANGELOG.md">Changelog</a></p>
+<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Site source</a> · <a href="CHANGELOG.md">Changelog</a></p>
 
 <p align="center">
   <img src="assets/banner.png" alt="A captured web page becomes an organized, source-preserving Obsidian note" width="100%">
@@ -20,7 +20,7 @@
 
 <p align="center"><em>Turn a captured page into a reviewed, source-preserving Obsidian note.</em></p>
 
-<p align="center"><a href="https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/">Open the live multilingual site</a></p>
+<p align="center">Planned Pages URL (deployment pending): `https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/`</p>
 
 > [!IMPORTANT]
 > This is a community template toolkit for the official Obsidian Web Clipper. It is not the Obsidian extension. Interpreter execution stays manual; generated notes keep the source content supplied by the Clipper.
@@ -87,7 +87,7 @@ Then import the customized files from `local-only/templates/`. See the [Windows,
 
 The project owner reported Web Clipper 1.7.1 and Obsidian 1.15.1 on Windows. That baseline was used for isolated template-renderer checks, not a complete installed-extension acceptance test. Full save checks on Windows, macOS, and Linux and live Interpreter-provider calls remain unverified.
 
-This is a public release. GitHub Pages deployment is configured at [the project URL](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/). The first Actions run must succeed before the site is considered live. The published build uses canonical URLs, Open Graph and Twitter metadata, JSON-LD, a sitemap, and indexable robots rules. The custom license prohibits commercial use without separate permission; it is source-available, not OSI-approved open source.
+This is a public release. GitHub Pages deployment is configured at [the project URL](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/). GitHub Actions is currently blocked because GitHub reports an account billing lock; the site is not live until that is resolved and deployment succeeds. The configured build uses canonical URLs, Open Graph and Twitter metadata, JSON-LD, a sitemap, and indexable robots rules for deployment once GitHub Actions is available. The custom license prohibits commercial use without separate permission; it is source-available, not OSI-approved open source.
 
 ## Help and contributions
 

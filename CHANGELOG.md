@@ -1,8 +1,8 @@
 # Change log
 
-## 0.1.3 — Public site deployment
+## 0.1.3 — Public site configuration
 
-- Configure GitHub Pages deployment with canonical, indexable metadata and sitemap.
+- Configure a GitHub Pages deployment workflow with canonical, indexable metadata and sitemap; deployment awaits resolution of the GitHub account billing lock.
 - Update public project status, landing-page URL, and publication instructions across seven locales.
 - Preserve the static social-preview image and the separate animated feature flow.
 
