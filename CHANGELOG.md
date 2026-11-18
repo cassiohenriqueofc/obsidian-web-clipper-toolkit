@@ -1,5 +1,13 @@
 # Change log
 
+## 0.1.4 — SEO metadata and handoff
+
+- Add a 1200 × 630 social image for generated Open Graph and Twitter previews.
+- Add canonical URLs, seven-language alternates, x-default, image dimensions, and accessibility metadata to indexable pages.
+- Add a noindex language chooser and a noindex 404 page; publish a sitemap with the Proposal date as lastmod.
+- Document indexing limits and create a dated handoff; no deployment or search indexing is claimed.
+
+
 ## 0.1.3 — Public site configuration
 
 - Configure a GitHub Pages deployment workflow with canonical, indexable metadata and sitemap; deployment awaits resolution of the GitHub account billing lock.
