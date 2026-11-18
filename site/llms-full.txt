@@ -256,7 +256,7 @@ tags:
 
 **Repository:** cassiohenriqueofc/obsidian-web-clipper-toolkit
 
-**Version:** 0.1.4 on main
+**Version at session start:** 0.1.4 on main; this playbook is bundled as 0.1.5
 
 **Planned Pages URL:** https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/
 
@@ -304,6 +304,7 @@ title link or snippet to match a query.
 | --- | --- | --- |
 | 2026-11-18 · SEO implementation | Reviewed the Python builder; separated unrelated personal-site material; added locale metadata, canonical and language alternates, Open Graph/Twitter fields, JSON-LD, share image, noindex chooser/404, robots and sitemap; updated seven publishing guides. | Source merged. Wait for GitHub billing/Pages access, deploy, and inspect live output. |
 | 2026-11-18 · Handoff and release | Merged PRs #6, #7 and #8. Uploaded sanitized ZIP, manifest and checksums to artifacts/v0.1.4. Local validation, smoke checks, metadata assertions and package integrity passed. | Search Console/Bing, GitHub Settings and installed-app/OS acceptance are pending. |
+| 2026-11-18 · SEO playbook | Added the metadata reference, preview mockups, two Mermaid graphs, session record, and reusable proposal checklist; updated README and generated site index. Local checks pass. | Included in the v0.1.5 package; deployment/indexing remain blocked externally. |
 | Next session · 2026-11-19 | Start from the dated project handoff and check latest Actions status. | Retry deployment only after the billing lock is resolved. |
 
 **Time estimate:** The elapsed duration was not measured, so no duration is claimed. After GitHub restores Actions and Pages access, allow about 30–60 minutes for deployment setup and live technical checks if credentials and settings are available. Search crawling may take days or weeks and is not guaranteed.
