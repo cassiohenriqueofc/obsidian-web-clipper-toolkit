@@ -40,7 +40,7 @@ seven documentation locales, attribution, memory rules and a repository/file map
 
 ## Publication and license decisions
 
-The owner made this repository public and authorized GitHub Pages hosting and indexing. The site is configured at the approved project URL; confirm the first Actions run before claiming successful deployment.
+The owner made this repository public and authorized GitHub Pages hosting and indexing. The site is configured at the approved project URL; resolve the GitHub Actions billing lock and confirm a successful run before claiming deployment.
 The selected custom license prohibits commercial use without separate permission;
 shared modifications retain source, attribution, license and dated change log.
 It does not require publication of private edits or every private Git commit.

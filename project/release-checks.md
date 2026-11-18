@@ -79,5 +79,14 @@ No claim of zero secret risk or universal webpage capture is made.
 - Owner confirmed the repository is public and authorized site indexing/deployment.
 - Added `.github/workflows/deploy-pages.yml`; it enables Pages, builds with the canonical project URL and `--indexable`, validates the output, and deploys the `site/` artifact.
 - Checked-in generated pages are built with the canonical URL and indexable robots/sitemap metadata.
-- Deployment must be confirmed from the GitHub Actions run; the Pages API reported 404 before this workflow was added.
+- First deployment is blocked: GitHub reports “The job was not started because your account is locked due to a billing issue.” The Pages API also returned 403 to the connected integration. The site is not live until the billing issue is resolved and an Actions run succeeds.
 - Repository About description and topics could not be changed through the connected integration (HTTP 403); the browser UI runtime is unavailable.
+
+
+## v0.1.3 public site configuration
+
+- Added `.github/workflows/deploy-pages.yml` for the approved GitHub Pages URL and indexable build.
+- Local build, validation, seven-locale metadata checks, smoke checks, and diff checks passed.
+- GitHub Actions run `44402578776` and its retry both failed before steps started. GitHub annotated the job: “The job was not started because your account is locked due to a billing issue.”
+- Pages creation via the connected GitHub API returned HTTP 403. The site is not deployed. After billing is resolved and repository settings access is available, rerun the workflow and verify the Pages URL.
+- About description, topics, and repository social-preview settings remain unchanged; API/UI access is unavailable.

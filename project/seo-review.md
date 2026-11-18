@@ -39,7 +39,7 @@ stable star/fork rankings. The repository is now public; search ranking and inde
 - The root README uses the generated banner, language links, a template table, quick-start commands, example links, navigation, and a prominent animated feature flow.
 - Seven language READMEs and seven language pages are linked from the project.
 - The site builder creates descriptive titles, page descriptions, Open Graph and Twitter fields, `SoftwareSourceCode` JSON-LD, language alternates, and a sitemap when given its canonical HTTPS URL.
-- GitHub Pages is configured at the repository URL. The first deployment must succeed before the site is considered live. The workflow builds with canonical URLs, language alternates, Open Graph/Twitter metadata, JSON-LD, a sitemap, and indexable robots rules.
+- GitHub Pages is configured at the repository URL. The site is not live: GitHub Actions is blocked by an account billing lock, and the Pages API returned 403 to the integration. The workflow builds with canonical URLs, language alternates, Open Graph/Twitter metadata, JSON-LD, a sitemap, and indexable robots rules.
 - A separate 1774 × 887 JPEG social preview is 119 KB, within GitHub's documented
   1 MB image limit. The original banner remains in place; the social-preview JPEG is also the motion-reduced fallback for `assets/feature-flow.gif`.
 - No stars, trending badges, contributor totals, or release counts are hard-coded.
@@ -50,7 +50,7 @@ stable star/fork rankings. The repository is now public; search ranking and inde
 After publication:
 
 1. Review the entire Git diff, release ZIP, settings, and privacy scan.
-2. The canonical URL is the GitHub Pages project URL. Confirm it remains the deployed host before changing repository names or hosting.
+2. The planned canonical URL is the GitHub Pages project URL. Confirm a successful deploy before treating it as live or requesting indexing.
 3. Verify titles, descriptions, canonical URLs, language alternates, social image,
    JSON-LD, robots policy, and sitemap on the live site. Register and verify the
    property in Google Search Console before requesting indexing.
