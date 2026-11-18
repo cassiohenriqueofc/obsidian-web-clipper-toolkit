@@ -1,0 +1,916 @@
+{
+  "version": "0.1.1",
+  "git_commit": "f141cbc2db11d52ba82f0a88a620862ad90d102a",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size": 111,
+      "sha256": "7ae1fa03fc66923775eea9d9b6188331208eaf9f336b4a6a02a8dbea60398f8e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "size": 291,
+      "sha256": "c5fda4db87daa405048ae9dcc683f0ff3dcf8dc82cddd8aab6cefe506e8e8032"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "size": 357,
+      "sha256": "07b6e197ee8d514660d0dbf4a4c3002888da81862727ab9ba0464fb8cc2cbe09"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 651,
+      "sha256": "33d5ad938d7f22810656e88b3c4afa3026e17fa5580f525d2fd5fed01c4d0ee3"
+    },
+    {
+      "path": ".gitignore",
+      "size": 305,
+      "sha256": "b9aac5ed98a282cfd88daa60f4ccb59e4f73ca452d02c71bb0e0663e51b6d2b4"
+    },
+    {
+      "path": ".privacy-policy.json",
+      "size": 321,
+      "sha256": "3b32434461f56633683b9bdfd61f5148f5789dbb27c5c717243fc32b0a269e02"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 1650,
+      "sha256": "2bdea6269a14a7bd2f09e6f0ca544a3975a55f80ba8e67064d834fd894705054"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 1548,
+      "sha256": "1126394374fc2df047923122812eae83e6816d78bfe951c3bcdbaed565993488"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size": 1772,
+      "sha256": "88865f26c36e4ce5e4d097be1d7e89750f2cc7efa9d0689135d4e0bdc2767128"
+    },
+    {
+      "path": "LICENCE.md",
+      "size": 252,
+      "sha256": "e7658178ee74012383f777ab19f607a9628bb99f7a0d91c777c376cb529a2893"
+    },
+    {
+      "path": "LICENSE",
+      "size": 3460,
+      "sha256": "b5b37f0e51f64745109be54a943531e50202afc590dfccaffc64baa016d93659"
+    },
+    {
+      "path": "Proposal.md",
+      "size": 4616,
+      "sha256": "52998d7bfba35ad738ff1bc5348259eceae4637149f5cff49720d8e02687224c"
+    },
+    {
+      "path": "README.de-DE.md",
+      "size": 4412,
+      "sha256": "464f22780eb202caf787a0a7e7d6b5d8de30994b3269d8ff7a5938354676e8e6"
+    },
+    {
+      "path": "README.es-AR.md",
+      "size": 4238,
+      "sha256": "066baebc7f75d147f7fd4eb5ce4e442e4ed1bd53e79624cc0a3d3b6ca04347cf"
+    },
+    {
+      "path": "README.es-ES.md",
+      "size": 4223,
+      "sha256": "3aca1807a331e55f229bb72c68a543bcb513a4e88206d302762dbbdd8e52502a"
+    },
+    {
+      "path": "README.es-MX.md",
+      "size": 4192,
+      "sha256": "88ae78345e5265ab7acfad7ab7b22e0950263a1b065f0eeb1432f0dd9d58dfab"
+    },
+    {
+      "path": "README.fr-FR.md",
+      "size": 4498,
+      "sha256": "7bffafc1bc54410112cc4c53a9a9b6d884a2138b0f2f0e9a53c929c109e8882e"
+    },
+    {
+      "path": "README.md",
+      "size": 5436,
+      "sha256": "1a84d8762f28fbe8ec4f507b484c22335b4c47c3d07bac31907f2b7a1753c154"
+    },
+    {
+      "path": "README.pt-BR.md",
+      "size": 8877,
+      "sha256": "08708b3995d4792b498dafdc3b7ee40de9041ab3605795e05e5459f11ca3011d"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size": 1219,
+      "sha256": "08c738a8ddb92ae04c82c2997a521a8d7f075b7d0d3d45b35e13af8fe71e208d"
+    },
+    {
+      "path": "SECURITY.md",
+      "size": 1787,
+      "sha256": "008e99996ef55a1d5fe6d80818cfc47e52e439a9a8c92fe8603b298700ddb4ed"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size": 1030,
+      "sha256": "8bc47c82b3be07b748eecf359b4dda6f729165c7f2afb4bf938f5addaeba5d48"
+    },
+    {
+      "path": "VERSION",
+      "size": 6,
+      "sha256": "80447316529fc62014fbaa047fb67c51ac30e32830cda370405349d8d66d196c"
+    },
+    {
+      "path": "aimemory/project-defaults.md",
+      "size": 2944,
+      "sha256": "378f7e4f519e98d96bfd2c471d000f24d5f112c062a82e28e78186e435fa8094"
+    },
+    {
+      "path": "assets/banner.png",
+      "size": 1624408,
+      "sha256": "bcac3a36315709b175ec067aac0a52175e1fc253f9863892d21b9f1060db04c2"
+    },
+    {
+      "path": "assets/social-preview.jpg",
+      "size": 121159,
+      "sha256": "adc057e0b74f1c72de93a8b0a599c1f6a0809d8d914d63f954c614f50962134f"
+    },
+    {
+      "path": "assets/workflow.gif",
+      "size": 58392,
+      "sha256": "3ed9734951a413f0436b85f682f03729eff0ddc1edf26d2671ccd94adb31bed4"
+    },
+    {
+      "path": "docs/de-DE/contributing.md",
+      "size": 643,
+      "sha256": "39082c06d0cec18ee6bc5d95eae04f3eb0a8dcc107c8aec868097d1681a74b62"
+    },
+    {
+      "path": "docs/de-DE/development.md",
+      "size": 918,
+      "sha256": "1b469afe088b2f48a7fae3c5088ede1e530b3ff401b66df72ee8adcdcd1b0b12"
+    },
+    {
+      "path": "docs/de-DE/file-templates.md",
+      "size": 376,
+      "sha256": "c923e3b153a3591095671d3c30d7467aef17b437600e93269857d89e696505d0"
+    },
+    {
+      "path": "docs/de-DE/guide.md",
+      "size": 4767,
+      "sha256": "4480c888c8954940194303863dc0dd223bfc9d1b0e6b92586cb301340b2b8f2d"
+    },
+    {
+      "path": "docs/de-DE/install.md",
+      "size": 1304,
+      "sha256": "84d3f05d132adb1068a9920a00b792507f23996feed16b3a43f34c9127cc7996"
+    },
+    {
+      "path": "docs/de-DE/license-summary.md",
+      "size": 456,
+      "sha256": "376f3369db2f269d8cec78a274e230efe796bc68c4c9b01857394613cdcb3949"
+    },
+    {
+      "path": "docs/de-DE/privacy.md",
+      "size": 307,
+      "sha256": "64098715f3290b6bd715cc6a37223321708fce8280b8da98ed587414dcadce85"
+    },
+    {
+      "path": "docs/de-DE/project-template.md",
+      "size": 1202,
+      "sha256": "d41556c947c4fdfbdd97114d0b4c305db6209b4bd4aeef6f460d997d7c176eff"
+    },
+    {
+      "path": "docs/de-DE/prompt-map.md",
+      "size": 693,
+      "sha256": "be3321fb104aabe003f49c9d09825f6a73a80f989c7c1d23ffc508321b2a6bde"
+    },
+    {
+      "path": "docs/de-DE/publishing.md",
+      "size": 1324,
+      "sha256": "2ca4512617a461b6ec8f3f39d204e5ea14ce7f24e29c9d7b74284a8c1988cf6a"
+    },
+    {
+      "path": "docs/de-DE/sources.md",
+      "size": 481,
+      "sha256": "772e0cf97bcda1e50a193a0827a21245c2a107f871b1f9c31a22d7977ec0974c"
+    },
+    {
+      "path": "docs/de-DE/storage.md",
+      "size": 341,
+      "sha256": "a4ed204566ceffcb820af6331dd2cbac714bf17a04580cd2bdeb72b7dce4e70a"
+    },
+    {
+      "path": "docs/de-DE/validation.md",
+      "size": 349,
+      "sha256": "bb4c5115ee7ad070511d1e3e15cceba8d12f20435df7cd96076d7c19b9fb4100"
+    },
+    {
+      "path": "docs/en-US/contributing.md",
+      "size": 599,
+      "sha256": "a57231bd94e169dd566abf7418320fc416b1fe8233ebe6ec7c7ccb6b94b8379f"
+    },
+    {
+      "path": "docs/en-US/development.md",
+      "size": 2913,
+      "sha256": "048e063d5bd4af96628642b44b2bb4fa9bf9d3ae0273cf005a7bb9dbb3221dcf"
+    },
+    {
+      "path": "docs/en-US/file-templates.md",
+      "size": 328,
+      "sha256": "7176ccbb3d3b7bc1d5c1c53a57295abadb78994191692d1cd8fe2075f28c6744"
+    },
+    {
+      "path": "docs/en-US/github-template.md",
+      "size": 2179,
+      "sha256": "96ea92863d29054ae1ea2570c9ac35af927ad5b15d016253346be35b76157b76"
+    },
+    {
+      "path": "docs/en-US/guide.md",
+      "size": 4381,
+      "sha256": "613f9e697433885f74d10d92f5b01059a232414008b9deeaf39263f9dc11718c"
+    },
+    {
+      "path": "docs/en-US/install.md",
+      "size": 5436,
+      "sha256": "f1cb9247a6dbc93758d342ef41ced5e51aab37c147463aecc29cafc58c4b770a"
+    },
+    {
+      "path": "docs/en-US/license-summary.md",
+      "size": 380,
+      "sha256": "89fd224dab232a53d5f469cdc218640bad6c623747acaddcab58fde343208a8c"
+    },
+    {
+      "path": "docs/en-US/privacy.md",
+      "size": 279,
+      "sha256": "cc05dae81574f80bc924e92a30751b5c8b23252b79fb0a30a511d136bd33c87b"
+    },
+    {
+      "path": "docs/en-US/project-template.md",
+      "size": 1040,
+      "sha256": "0da28d9031d16bbbae60605d742172de7e7980f3a280f00b2728a060b4456084"
+    },
+    {
+      "path": "docs/en-US/prompt-map.md",
+      "size": 4980,
+      "sha256": "0fbf32faba1aa3fc3238094d0577b6936fd7ab480af9e1377f28e5078283900f"
+    },
+    {
+      "path": "docs/en-US/publishing.md",
+      "size": 3077,
+      "sha256": "da9096d335687233c2c41ebd19f38bb2ed019b0b18cdf9812f33c592ed0587b3"
+    },
+    {
+      "path": "docs/en-US/sources.md",
+      "size": 463,
+      "sha256": "f0d00d49023bae0d0e2186b8825f0dcbfed22d7a9e1e43a459bdbca3ed7faa7e"
+    },
+    {
+      "path": "docs/en-US/storage.md",
+      "size": 324,
+      "sha256": "2d567112366b14f56fdb1925f221e63ed9697b59229a21c52d78bc155e2d012e"
+    },
+    {
+      "path": "docs/en-US/template-comparison.md",
+      "size": 1390,
+      "sha256": "64386a23c827987cfcfd5d1df28d542be1329c700efca5750317ff942693e67c"
+    },
+    {
+      "path": "docs/en-US/template-validation.md",
+      "size": 3449,
+      "sha256": "70b530091a3bd303ddef96686a033eaf8f89f29c49cf39f16f5d56f16bb77f76"
+    },
+    {
+      "path": "docs/en-US/validation.md",
+      "size": 325,
+      "sha256": "941e880cd30b2e74d146c84368e78c74c636e82fe1ff126119b2e93636541550"
+    },
+    {
+      "path": "docs/es-AR/contributing.md",
+      "size": 620,
+      "sha256": "b010fd6b4e870f0c74a3d7af3f5696d66393ffef8533ff70f059c9c4dd9438fe"
+    },
+    {
+      "path": "docs/es-AR/development.md",
+      "size": 900,
+      "sha256": "85bda5460652b8994d234d651da7236cfc8fdbd0ab7f748e1e3c5104886c34fc"
+    },
+    {
+      "path": "docs/es-AR/file-templates.md",
+      "size": 358,
+      "sha256": "0b86d0e8f5506513084c02232a95ae3c9dc2c14b261271400b6f22dd070eae54"
+    },
+    {
+      "path": "docs/es-AR/guide.md",
+      "size": 4493,
+      "sha256": "35c5a6e2db9c9f3756cb53b28493f84a12f6ec9bf4e690a0cdbecd3c0e4d4c3d"
+    },
+    {
+      "path": "docs/es-AR/install.md",
+      "size": 1228,
+      "sha256": "52715a9a671581fc35252c00338a0b345daa52e5b899f449f805d9ca9865a546"
+    },
+    {
+      "path": "docs/es-AR/license-summary.md",
+      "size": 410,
+      "sha256": "0aac6f39ebff05448bc9725ccf9a7f70fa5634b99a39a0a799ce808ea5e9c9f2"
+    },
+    {
+      "path": "docs/es-AR/privacy.md",
+      "size": 296,
+      "sha256": "5f4b825beea97b5e692e2fe6b9d52e8de76428e41a57217f4afacb087f9feaf6"
+    },
+    {
+      "path": "docs/es-AR/project-template.md",
+      "size": 1125,
+      "sha256": "c0960a7dbecd16712c2bc36302b1f49651625dc3eda6180756313c646ae31b80"
+    },
+    {
+      "path": "docs/es-AR/prompt-map.md",
+      "size": 677,
+      "sha256": "3efd49cec4570c40f1bbceb928d451394149389a9ee74df5ae4cb80e327c45d4"
+    },
+    {
+      "path": "docs/es-AR/publishing.md",
+      "size": 1262,
+      "sha256": "641a9f4cd46a0a392f7d611c352cc20a1c6f775f32d3a0bc956ac7fabf1f6362"
+    },
+    {
+      "path": "docs/es-AR/sources.md",
+      "size": 460,
+      "sha256": "9be26d1415a693769884e87981968a5223beb33895808a4f907235699173d157"
+    },
+    {
+      "path": "docs/es-AR/storage.md",
+      "size": 345,
+      "sha256": "a6f53df5e9f6b6e707d36850cc2ca616fa38867cabd8a522873627bda7759332"
+    },
+    {
+      "path": "docs/es-AR/validation.md",
+      "size": 326,
+      "sha256": "282aa0e9ecb5061fce73a095fdb3f256519d5178af61f37f90874b329e47a7a2"
+    },
+    {
+      "path": "docs/es-ES/contributing.md",
+      "size": 621,
+      "sha256": "4317e728cb71500dba5a509eb0f3f079cdfb9e4ac2200da4056c2a4795a1ce0a"
+    },
+    {
+      "path": "docs/es-ES/development.md",
+      "size": 908,
+      "sha256": "3d7306f2e17184b04ca379afd36d626c3ae349b158fec35f7fc4e5121e64b6ce"
+    },
+    {
+      "path": "docs/es-ES/file-templates.md",
+      "size": 358,
+      "sha256": "0b86d0e8f5506513084c02232a95ae3c9dc2c14b261271400b6f22dd070eae54"
+    },
+    {
+      "path": "docs/es-ES/guide.md",
+      "size": 4480,
+      "sha256": "071fe9aa0ae3ea1e49acf685c38bf10a715a3cba6036811b995662ac789ba881"
+    },
+    {
+      "path": "docs/es-ES/install.md",
+      "size": 1216,
+      "sha256": "1ef8a12048575ce55c5964d9ff01f486e3b9d7fe0bc8de684a3cfc05aefeea99"
+    },
+    {
+      "path": "docs/es-ES/license-summary.md",
+      "size": 413,
+      "sha256": "b8ed98e28c5b57ce961c9892a8a324435ce31f33553b1527f205ae4cae460ed3"
+    },
+    {
+      "path": "docs/es-ES/privacy.md",
+      "size": 300,
+      "sha256": "603e7b2c4472865a605dfb3468ca52b60d16eee9645206061cd8d137cc933560"
+    },
+    {
+      "path": "docs/es-ES/project-template.md",
+      "size": 1108,
+      "sha256": "d5130f7ed838cd9ac3eb4637b38f20f3d9c918a51aab193c27050dbffade6aef"
+    },
+    {
+      "path": "docs/es-ES/prompt-map.md",
+      "size": 682,
+      "sha256": "29a4fa960317b1cb9ccb7448d69fc3c020b6506d4e71408d5be322b93edd4772"
+    },
+    {
+      "path": "docs/es-ES/publishing.md",
+      "size": 1275,
+      "sha256": "de86c3553db30dce572419bb429325ee1e4a41ffea6b9e5b177a83e21a45eecc"
+    },
+    {
+      "path": "docs/es-ES/sources.md",
+      "size": 462,
+      "sha256": "77f50f3a12ef391e3c71dcf55e14720a1af45693e7f2cfbec2bc8802c5b1e31a"
+    },
+    {
+      "path": "docs/es-ES/storage.md",
+      "size": 352,
+      "sha256": "f6e4d452e0a345b4e7280e2fb422f536e565470a4bf735e66e8db4259b8fd376"
+    },
+    {
+      "path": "docs/es-ES/validation.md",
+      "size": 327,
+      "sha256": "5248b22e3d027c15810b65f8a6621d0405eeb0935389bb8dee165852d1996392"
+    },
+    {
+      "path": "docs/es-MX/contributing.md",
+      "size": 620,
+      "sha256": "cf9c4f28890a2d224df54f42f8ec9530a495d3633d82d06254f5c998b91ea3de"
+    },
+    {
+      "path": "docs/es-MX/development.md",
+      "size": 897,
+      "sha256": "75871c8a9202a0ef067d1d6ff634fe73a3d7aa88f9c14d892235379d1cc8abf5"
+    },
+    {
+      "path": "docs/es-MX/file-templates.md",
+      "size": 358,
+      "sha256": "0b86d0e8f5506513084c02232a95ae3c9dc2c14b261271400b6f22dd070eae54"
+    },
+    {
+      "path": "docs/es-MX/guide.md",
+      "size": 4432,
+      "sha256": "0abaa03c837013ceb7b09ab26846675b676155419ba1785b6db76770d0d95a45"
+    },
+    {
+      "path": "docs/es-MX/install.md",
+      "size": 1205,
+      "sha256": "c002c952b5adbf2ffcce481e2f6996dbd01da18acc45cdf3e65f5855a7eb6f5d"
+    },
+    {
+      "path": "docs/es-MX/license-summary.md",
+      "size": 410,
+      "sha256": "0aac6f39ebff05448bc9725ccf9a7f70fa5634b99a39a0a799ce808ea5e9c9f2"
+    },
+    {
+      "path": "docs/es-MX/privacy.md",
+      "size": 292,
+      "sha256": "1ba7b02a8d80c7295022052b45a401429b6f190a9a38b8369df5c8b24c37878a"
+    },
+    {
+      "path": "docs/es-MX/project-template.md",
+      "size": 1108,
+      "sha256": "809670b705db985f8bfa5def7bd68cefc9558808e7fbe8de36283e786b9f6097"
+    },
+    {
+      "path": "docs/es-MX/prompt-map.md",
+      "size": 676,
+      "sha256": "9927186b8220e3e07d092889359464a8657fe9da49a02ac7efd4aef8f614b971"
+    },
+    {
+      "path": "docs/es-MX/publishing.md",
+      "size": 1247,
+      "sha256": "1a44f304e336ca1322ae8374f51de5de3c990fd8c3150e65e26b36e0c7435cc5"
+    },
+    {
+      "path": "docs/es-MX/sources.md",
+      "size": 458,
+      "sha256": "d779a0453a58a231cb1628001f70a4229e50ab9f1acc4166321dc5ddd5ccc20c"
+    },
+    {
+      "path": "docs/es-MX/storage.md",
+      "size": 342,
+      "sha256": "f1c3cd4b8d3f8d5bc1ffab93ee61112fc26db7093a3a665de630a9b0b21aabaf"
+    },
+    {
+      "path": "docs/es-MX/validation.md",
+      "size": 326,
+      "sha256": "282aa0e9ecb5061fce73a095fdb3f256519d5178af61f37f90874b329e47a7a2"
+    },
+    {
+      "path": "docs/fr-FR/contributing.md",
+      "size": 652,
+      "sha256": "360679c78b117b344e0122dff354759529ab7999760d979028ca78b3eeaab4f8"
+    },
+    {
+      "path": "docs/fr-FR/development.md",
+      "size": 954,
+      "sha256": "f2db2bd8d7d42850ec064a77d50de31641698bf1f46f4aa40746e08599b92444"
+    },
+    {
+      "path": "docs/fr-FR/file-templates.md",
+      "size": 379,
+      "sha256": "cded03b1d196b6d9f0fec6a658b4028fce0d2cc26231a1c730700d986deef8ac"
+    },
+    {
+      "path": "docs/fr-FR/guide.md",
+      "size": 4873,
+      "sha256": "1c232eb1db948d9afad17563582fa30058cb8f6096baa86164ea753997e44f03"
+    },
+    {
+      "path": "docs/fr-FR/install.md",
+      "size": 1305,
+      "sha256": "9e9c673f5816eabdc1fe1d0df7228fb399fd8fb83f976916d5d90bfb9869b8d8"
+    },
+    {
+      "path": "docs/fr-FR/license-summary.md",
+      "size": 488,
+      "sha256": "2137bf4754164dd852740237ec9330c58fab1cf2db388be6bd1c90d2fc90be9d"
+    },
+    {
+      "path": "docs/fr-FR/privacy.md",
+      "size": 329,
+      "sha256": "594d26dc16acb7f5e92d041f880f9bc0e4f329c5ef502de1ca1b8bd67c2ae81d"
+    },
+    {
+      "path": "docs/fr-FR/project-template.md",
+      "size": 1178,
+      "sha256": "b34627018b07d04bbd2fead5ba3629798b8c30f02f3c6e4b0e2235b6926e3aa2"
+    },
+    {
+      "path": "docs/fr-FR/prompt-map.md",
+      "size": 710,
+      "sha256": "45ffa78eef55ae4aac2dc1a6e917f4d648067b12641519bee46cb5e5dc12f291"
+    },
+    {
+      "path": "docs/fr-FR/publishing.md",
+      "size": 1355,
+      "sha256": "0462708e1fdb91b0d0879eb44a4d6d170d301eef4f2218796f00d7180ab06af9"
+    },
+    {
+      "path": "docs/fr-FR/sources.md",
+      "size": 495,
+      "sha256": "6dfbb8f23227ec76376ddb894ea872fe68dda98d869c7ee950fb9b2a0b00ea78"
+    },
+    {
+      "path": "docs/fr-FR/storage.md",
+      "size": 360,
+      "sha256": "7a0d7677544c15c1ae41debe15b3d7ab205773a4af22743376dc83c93fd9c2f4"
+    },
+    {
+      "path": "docs/fr-FR/validation.md",
+      "size": 359,
+      "sha256": "25b705930ca52ba80557133e342dd57933b777a39d2fc5626d02b6dd4b9d5247"
+    },
+    {
+      "path": "docs/pt-BR/contributing.md",
+      "size": 605,
+      "sha256": "26b97b5607a8d07bbdc68175f78cf11e67cb1a4f145d567ece14f6995949cb93"
+    },
+    {
+      "path": "docs/pt-BR/development.md",
+      "size": 2040,
+      "sha256": "c35b2d28887f49b4fc2723d2c1968e611605013e5fa9a07d6dacfb4fefe8c4ed"
+    },
+    {
+      "path": "docs/pt-BR/file-templates.md",
+      "size": 345,
+      "sha256": "7cce07de450141d356b0405bc79d72acd95ac165701446d2005aa2d697bf2665"
+    },
+    {
+      "path": "docs/pt-BR/guide.md",
+      "size": 4474,
+      "sha256": "ab67e35cb4b83d8715be0aaed965a476493a6123b0eef33878b41eb0913ba7ca"
+    },
+    {
+      "path": "docs/pt-BR/install.md",
+      "size": 4599,
+      "sha256": "72624d6feb24c3f267a2ce4a31bd937472ef55a6985f7755da7822cc9174119a"
+    },
+    {
+      "path": "docs/pt-BR/license-summary.md",
+      "size": 412,
+      "sha256": "ae0c80e467fb13589cbf862c64d5eefd3a57e987828f21906437a76617739e1b"
+    },
+    {
+      "path": "docs/pt-BR/privacy.md",
+      "size": 276,
+      "sha256": "438248d6dd833f2f5a8faacd5b4cff8ff07492bf17dcfb6e971892e2c18dcade"
+    },
+    {
+      "path": "docs/pt-BR/project-template.md",
+      "size": 1081,
+      "sha256": "d9ee63134da21ba7184243f973f5e60d5001ecb6f263ede4813ff6caf71ec77a"
+    },
+    {
+      "path": "docs/pt-BR/prompt-map.md",
+      "size": 1023,
+      "sha256": "652ee8dd0bc0f18dd9e9f58609b377ed7001a31d30537a68f49b6504ff4d52f6"
+    },
+    {
+      "path": "docs/pt-BR/publishing.md",
+      "size": 1932,
+      "sha256": "3ddc79c61e279a2e94e640b7137c04c770c450f3752c476dfaa95d0ebab379b9"
+    },
+    {
+      "path": "docs/pt-BR/sources.md",
+      "size": 472,
+      "sha256": "b4d663e3f03be11e049c907f7d270e0b5e43f0ec862bb7b04c5d0bf925647c6b"
+    },
+    {
+      "path": "docs/pt-BR/storage.md",
+      "size": 354,
+      "sha256": "dc7d057d1f20b14916e1d507af284e2484a0c0a2fcc16be93e73929d45ccfbd2"
+    },
+    {
+      "path": "docs/pt-BR/validation.md",
+      "size": 334,
+      "sha256": "05c8bab6fe4e9927fbd468767fb4d67b15c2749fb2d96527d96d8244ef85b425"
+    },
+    {
+      "path": "examples/01-balanced-original-callout-example.md",
+      "size": 2121,
+      "sha256": "ad399e13d72da4f9ecc56f4b4e495d3fa7119532ac9f7b2bac4a4e2e54260166"
+    },
+    {
+      "path": "examples/02-compact-original-footer-example.md",
+      "size": 1633,
+      "sha256": "f429eee3ab937f9c74c3c5b49c6446c2f9396ebbb909fa94f6a8db795f94ba37"
+    },
+    {
+      "path": "examples/03-source-archive-example.md",
+      "size": 858,
+      "sha256": "3d6e32b67cbf1ba2a3a88006c5e92aa75fb0825b3a9af22ff76613c1a73bb165"
+    },
+    {
+      "path": "handoff.md",
+      "size": 2080,
+      "sha256": "69e53705f5d4566af1e77dda5b72c65b1aea8768e51e0aa8096f448f5a250184"
+    },
+    {
+      "path": "project/capture-spec.md",
+      "size": 1307,
+      "sha256": "170207345e7ab68c4a180655369eb21b2a44326fc9c36462b372d0f85296c452"
+    },
+    {
+      "path": "project/context-handoff.md",
+      "size": 2045,
+      "sha256": "797dc90d4ed2a6b0b40ae11fd4f2d76fcebc20718d5ee1909b198f7079b369d8"
+    },
+    {
+      "path": "project/model-review.md",
+      "size": 1303,
+      "sha256": "7972c99b71da0e05a65c55ebbb97556d55634b612c0775159b2e7facd0ea74f7"
+    },
+    {
+      "path": "project/planned-vs-delivered.md",
+      "size": 2417,
+      "sha256": "7fbdce1884d07c2cec67370b8df9e93479a6a04e5c0eb0b1f03a29a98d9ef74c"
+    },
+    {
+      "path": "project/proposal-plan.md",
+      "size": 1092,
+      "sha256": "eba233d2758514b4540119456a342d9a78c7c7febb2ded1d42710289bb456901"
+    },
+    {
+      "path": "project/release-checks.md",
+      "size": 3824,
+      "sha256": "25a4faf1784767fc599662afd9ada21e3f8456c9630371844a1297d589811cda"
+    },
+    {
+      "path": "project/repository-protection.md",
+      "size": 2152,
+      "sha256": "4419579c5e4fb24d5df3b08fddab734b74226fd945f45b806518f365b1a74fb7"
+    },
+    {
+      "path": "project/seo-review.md",
+      "size": 5311,
+      "sha256": "651a84dde3a249f0bc6e57e7fa7be160228fc60488953d6eaa05252ceb6bd2d3"
+    },
+    {
+      "path": "project-template/.github/workflows/validate.yml.tmpl",
+      "size": 297,
+      "sha256": "e227310c0dbc6b4ee8c66e5c71a0c86a0c92484ae726c33bbfd0f128490930c6"
+    },
+    {
+      "path": "project-template/.gitignore.tmpl",
+      "size": 306,
+      "sha256": "784fc56919d94991ea799e6e3b7c58af759d69f5f6dffe3917ce51fa437608e5"
+    },
+    {
+      "path": "project-template/AGENTS.md.tmpl",
+      "size": 1328,
+      "sha256": "44d42ce9055c4d16c17a21452aec4af1295a72c9e5a23fef20c2aa29122680b3"
+    },
+    {
+      "path": "project-template/CHANGELOG.md.tmpl",
+      "size": 321,
+      "sha256": "7f60de584ea2f96bd591d48038388797a409d991a1b5bdda8a433a84371e8742"
+    },
+    {
+      "path": "project-template/LICENCE.md.tmpl",
+      "size": 188,
+      "sha256": "e3f67d52ee1f6c47c96e3309add5238db4ba7c3c3817dc694f246b4aa1ce1c49"
+    },
+    {
+      "path": "project-template/LICENSE.md.tmpl",
+      "size": 3569,
+      "sha256": "17d3243ffbdd5a78a8072c4913be6ce52e8978a3b918b1b1b94af8161d8c4d8b"
+    },
+    {
+      "path": "project-template/Proposal.md",
+      "size": 2076,
+      "sha256": "1743ad754402a895b21edb221c5813d25bc952bcc495af7dcbf42cd9eb3b61b4"
+    },
+    {
+      "path": "project-template/README.de-DE.md.tmpl",
+      "size": 2417,
+      "sha256": "f1db3b79bc85c441faeada542789fb6e7647c99ebd73ae419ac1aad8c1788daa"
+    },
+    {
+      "path": "project-template/README.es-AR.md.tmpl",
+      "size": 2292,
+      "sha256": "201913ae8aa13a295130814841b86366d087ad3cd96cb75ea43680dbab3720b2"
+    },
+    {
+      "path": "project-template/README.es-ES.md.tmpl",
+      "size": 2303,
+      "sha256": "00301a909f1c4278212fc7b9fd554bca64d6693650c8ac19ca3c7137cb2c5559"
+    },
+    {
+      "path": "project-template/README.es-MX.md.tmpl",
+      "size": 2286,
+      "sha256": "bed1a03e8968b285bee5fba6194bf038f291d309e514bb538789c3461a2761da"
+    },
+    {
+      "path": "project-template/README.fr-FR.md.tmpl",
+      "size": 2523,
+      "sha256": "05f14725090e2c1833b50b0aa6df06064d796470a5d68fbea181450d8c6ee05a"
+    },
+    {
+      "path": "project-template/README.md.tmpl",
+      "size": 2222,
+      "sha256": "0cb5a46754cb505a162732ce9ff8539b643972ae69b7f715130527987b80534c"
+    },
+    {
+      "path": "project-template/README.pt-BR.md.tmpl",
+      "size": 2269,
+      "sha256": "362fce3c86389ac0872e5e898a971289f550370bfded5a84a0e8a7bcafa945dc"
+    },
+    {
+      "path": "project-template/THIRD_PARTY_NOTICES.md.tmpl",
+      "size": 550,
+      "sha256": "63afadb978fd4a36b214aa7bb2aa4ea478624e8f72cfc8edafb20f15b985db82"
+    },
+    {
+      "path": "project-template/note.md.tmpl",
+      "size": 896,
+      "sha256": "881234137f14aaa000319f5303a43ac0abb2e762a5a70ee612b8ba40e0652bfa"
+    },
+    {
+      "path": "project-template/scripts/check_privacy.py.tmpl",
+      "size": 1230,
+      "sha256": "875d26315b6d8777d85f922d9b4be42197ab53b91337255d2ea878ca5c8f1ca5"
+    },
+    {
+      "path": "project-template/source.py.tmpl",
+      "size": 593,
+      "sha256": "3ec88e727f09f10fc0c56f90d70df027469dddf04b12b33b8352da3b786b0952"
+    },
+    {
+      "path": "references/README.md",
+      "size": 1245,
+      "sha256": "00d2d847f63d9041ead27fb40d9a183b06fcbb2f68e9aaf134f1349dfc32ffeb"
+    },
+    {
+      "path": "scripts/build_site.py",
+      "size": 14819,
+      "sha256": "e5222a62367dd9b610cc7f0e73de59bfbd66690272c1eca03c2a369a0f6dbf76"
+    },
+    {
+      "path": "scripts/common.py",
+      "size": 513,
+      "sha256": "89ab3f90804fe4aff32eb44781b36250b151f1b6b1a9c45893cdc9d6b648d034"
+    },
+    {
+      "path": "scripts/configure_templates.py",
+      "size": 1792,
+      "sha256": "a23fd2c7e9a7d3887987edd97a80ac40e32efed7a60351619fdf8ffef922d8a2"
+    },
+    {
+      "path": "scripts/install_memory.py",
+      "size": 738,
+      "sha256": "0187861a3917c0d369f0b328025d66376d0cf0fae291871c6925b5c48b31a3fe"
+    },
+    {
+      "path": "scripts/new_project.py",
+      "size": 6287,
+      "sha256": "a4d4e24c9c5ecffa6ba835a7abffeb2d891508cbc9c8452bb7957842ab9ddbe7"
+    },
+    {
+      "path": "scripts/package_release.py",
+      "size": 1983,
+      "sha256": "65d21600cdf3a3ad82d9acc2d65fd4af4507d84b7039e99e60cfc324cad2bbca"
+    },
+    {
+      "path": "scripts/smoke_check.py",
+      "size": 2711,
+      "sha256": "f0da659723dc85782cfc46cc2efee6fb3822ddebd057761340fa73756cdb724e"
+    },
+    {
+      "path": "scripts/validate.py",
+      "size": 5750,
+      "sha256": "3d8638e10a7cc5493ddbe1586b16f365c0cbddb87008e3dd338549c42bf01096"
+    },
+    {
+      "path": "site/assets/banner.png",
+      "size": 1624408,
+      "sha256": "bcac3a36315709b175ec067aac0a52175e1fc253f9863892d21b9f1060db04c2"
+    },
+    {
+      "path": "site/assets/site.css",
+      "size": 3704,
+      "sha256": "c86cf735496ff5d4e07dfe89f35f8efc1c42229bf053116156edf3ef167ca8fa"
+    },
+    {
+      "path": "site/assets/site.js",
+      "size": 431,
+      "sha256": "22db36370db285e8c06a6989e1a4fbbf872f8eeb3c3a8432e5f4f2b5be425cd7"
+    },
+    {
+      "path": "site/assets/social-preview.jpg",
+      "size": 121159,
+      "sha256": "adc057e0b74f1c72de93a8b0a599c1f6a0809d8d914d63f954c614f50962134f"
+    },
+    {
+      "path": "site/de-DE/index.html",
+      "size": 34580,
+      "sha256": "3a752fb27f17aaed3edd0fb6786a27fb52836b80504a6e418f540f5e5fd2cf18"
+    },
+    {
+      "path": "site/en-US/index.html",
+      "size": 34860,
+      "sha256": "1af5e19c15793064a365341908897f498b81709ae474f6b68e1e7ab8e74634ed"
+    },
+    {
+      "path": "site/es-AR/index.html",
+      "size": 34720,
+      "sha256": "ff7fb57e7749956502333610e095fc14582ba7111c978965204f273392613406"
+    },
+    {
+      "path": "site/es-ES/index.html",
+      "size": 34720,
+      "sha256": "284d46e81a048d4428c0b1d7e9c937ec8627a7911b8de048f54b31164523c782"
+    },
+    {
+      "path": "site/es-MX/index.html",
+      "size": 34720,
+      "sha256": "fe6176a52c389f44b3c44c3e67a8d08ad98079192c6546c1a4bd740baee4971f"
+    },
+    {
+      "path": "site/file-index.json",
+      "size": 5535,
+      "sha256": "e38120499352f588133cf763aeb9b741f2966dde6cd813309753b4322556cb1e"
+    },
+    {
+      "path": "site/fr-FR/index.html",
+      "size": 34706,
+      "sha256": "fa507156fdeb2cf1d0be7f70357b55b2fef0e70be50ee9c0675675e959ac5d8b"
+    },
+    {
+      "path": "site/index.html",
+      "size": 428,
+      "sha256": "ed85eac3d37344d31326f3c1831689e8467226e4fc2e13b473dc23175ff24835"
+    },
+    {
+      "path": "site/llms-full.txt",
+      "size": 16070,
+      "sha256": "2333c0bf6b84527ac4e3df9ca02492bb64cc5e07fc30073fce93e62f875b7afb"
+    },
+    {
+      "path": "site/llms.txt",
+      "size": 931,
+      "sha256": "9f279eb93d97cfce17611cad5b9f43b70c1e0a0ca58c68fca18304265de9053e"
+    },
+    {
+      "path": "site/pt-BR/index.html",
+      "size": 34986,
+      "sha256": "507bc9acf9203af92d82c6d4c6bac60f783bd3e9843f5dbe2c941b690a528a31"
+    },
+    {
+      "path": "site/robots.txt",
+      "size": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "templates/01-balanced-original-callout-clipper.json",
+      "size": 8157,
+      "sha256": "e0653b6231f777bba822cfa38b73adcf41cbcaf166960df065f16f6bbb2207cb"
+    },
+    {
+      "path": "templates/02-compact-original-footer-clipper.json",
+      "size": 6787,
+      "sha256": "f2060c2157862537babc21c8a1c92a91f7e3ebb204de4e5614f81a655213c990"
+    },
+    {
+      "path": "templates/03-source-archive-clipper.json",
+      "size": 2290,
+      "sha256": "91bfcc9fd8231e6b0b09f3f6255d4092d59f0257c387d4857a3885bafb3e94b7"
+    },
+    {
+      "path": "web/documentation-locales.json",
+      "size": 31332,
+      "sha256": "273582d5b4d522fab8acc99a1114cdabc15538939d3248ce449a64e9c7f77298"
+    },
+    {
+      "path": "web/site.css",
+      "size": 3704,
+      "sha256": "c86cf735496ff5d4e07dfe89f35f8efc1c42229bf053116156edf3ef167ca8fa"
+    },
+    {
+      "path": "web/site.js",
+      "size": 431,
+      "sha256": "22db36370db285e8c06a6989e1a4fbbf872f8eeb3c3a8432e5f4f2b5be425cd7"
+    }
+  ]
+}
