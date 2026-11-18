@@ -13,3 +13,5 @@ python3 scripts/new_project.py --proposal project-template/Proposal.md --output 
 ```
 
 Cada arquivo novo deve indicar função real, classificação dos dados, fonte quando aplicável e validação relevante. Notas usam YAML simples; código usa um cabeçalho útil e curto. Comentários explicam motivos e restrições, sem repetir o código. Não invente testes ou resultados.
+
+O gerador copia apenas campos públicos, não o texto bruto da proposta. Acrescente o escopo revisado ao Proposal.md gerado. A atribuição deve corresponder à política aprovada; os idiomas seguem os arquivos entregues.

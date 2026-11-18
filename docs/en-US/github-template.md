@@ -5,10 +5,9 @@ This repo includes a clean Proposal-based scaffold and AGENTS instructions.
 
 ## Template setting
 
-The connected integration cannot change the repository Template setting (403).
-An owner can open repository Settings → General → Template repository and enable
-it. Keep visibility private. A private template remains subject to GitHub access
-rules. No setting change is claimed by this project.
+The repository Template flag is verified as enabled and visibility remains private.
+An owner can inspect it under Settings → General → Template repository.
+A private template remains subject to GitHub access rules.
 
 With the setting enabled, GitHub's Use this template copies the whole repository,
 including the toolkit. For a clean unrelated project, prefer the generator:
@@ -40,3 +39,5 @@ starter attribution and honor its noncommercial license.
 
 Templates are starting contracts, not proof that code works or reused material is
 licensed. Never fill missing results, source credits or URLs with invented facts.
+
+The generator accepts public author/company/contact values only from the explicitly approved attribution policy. Raw Proposal body text is not copied automatically; add reviewed scope to the generated Proposal.md manually. Generated language metadata follows the README files actually delivered.

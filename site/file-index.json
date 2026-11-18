@@ -143,6 +143,7 @@
   "project-template/source.py.tmpl",
   "project/capture-spec.md",
   "project/context-handoff.md",
+  "project/model-review.md",
   "project/planned-vs-delivered.md",
   "project/proposal-plan.md",
   "project/release-checks.md",

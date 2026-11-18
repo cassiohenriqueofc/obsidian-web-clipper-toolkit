@@ -13,3 +13,5 @@ python3 scripts/new_project.py --proposal project-template/Proposal.md --output 
 ```
 
 For each new file, state its real purpose, data classification, source credit when applicable, and meaningful validation. Notes use flat YAML; source files use a short useful header; comments explain reasons and constraints instead of repeating code. Never invent tests or results.
+
+The generator copies public fields only, not the raw proposal body. Add reviewed scope to the generated Proposal.md. Public attribution must match the approved policy; language metadata follows delivered files.

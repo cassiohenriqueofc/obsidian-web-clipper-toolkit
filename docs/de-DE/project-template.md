@@ -13,3 +13,5 @@ python3 scripts/new_project.py --proposal project-template/Proposal.md --output 
 ```
 
 Jede neue Datei braucht einen tatsächlichen Zweck, eine Datenklassifikation, gegebenenfalls Quellenangaben und passende Prüfungen. Notizen verwenden einfaches YAML; Code einen kurzen nützlichen Kopfkommentar. Kommentare erklären Gründe und Einschränkungen, statt Code zu wiederholen. Keine Tests oder Ergebnisse erfinden.
+
+Der Generator übernimmt nur öffentliche Felder, nicht den Rohtext des Vorschlags. Ergänzen Sie den geprüften Umfang in der erzeugten Proposal.md. Öffentliche Angaben müssen der freigegebenen Richtlinie entsprechen; Sprachen folgen den gelieferten Dateien.

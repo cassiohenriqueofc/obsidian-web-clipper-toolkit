@@ -52,7 +52,7 @@ Only the public identity in .privacy-policy.json is expressly approved.
 - [x] Full supplied content is retained by the template; extraction/transfer limits are disclosed.
 - [x] All seven locales have README/guide, install, development, metadata, privacy,
   source/credit, license explanation, starter and storage instructions.
-- [x] A fresh project can be rendered from Proposal.md without overwriting a project.
+- [x] A fresh project can be rendered from reviewed public Proposal.md fields without overwriting a project; private body text is not copied.
 - [x] Generated notes include flat YAML; JSON-LD omits unknown URLs instead of inventing them.
 - [x] Original private exports and personal paths are excluded from source/release.
 - [x] Local source and browser checks have defined, reproducible scope.
@@ -78,3 +78,5 @@ repository after review instead of duplicating the toolkit in every new project.
 
 Next requested input: the owner's preferred general style and concrete capture
 issues. Edit this proposal with those findings before authorizing the next phase.
+
+Independent scope review found no unrequested drift. It recommended live capture review first, explicitly approved attribution, and metadata derived from actual delivered language files. The generator implements the latter two; live capture review remains with the owner.

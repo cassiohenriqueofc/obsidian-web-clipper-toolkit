@@ -51,3 +51,5 @@ Frontmatter uses one flat key per line. Values must be JSON-compatible scalars:
 quoted strings, numbers, true/false or null. This is a deliberately small valid
 YAML subset parsed without extra packages. Other YAML features are rejected.
 Edit these public/demo-safe values, then run scripts/new_project.py.
+
+The generator reads only the public flat fields above. It intentionally omits the raw body from the new project to avoid copying private drafting notes. Add reviewed scope and acceptance criteria to the generated Proposal.md before implementation. Public attribution must match the explicit .privacy-policy.json allowlist.

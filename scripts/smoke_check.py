@@ -17,6 +17,7 @@ with tempfile.TemporaryDirectory(dir=scratch) as tmp:
     assert run('new_project.py','--output',out).returncode!=0
     metadata=json.loads((out/'metadata.jsonld').read_text())
     assert 'url' not in metadata and 'codeRepository' not in metadata
+    assert set(metadata['inLanguage'])=={'en-US','pt-BR','es-AR','es-MX','es-ES','de-DE','fr-FR'}
     assert len(list(out.glob('README*.md')))==7
     for path in out.rglob('*'):
         if path.is_file():assert '{{' not in path.read_text(),path
@@ -28,6 +29,13 @@ with tempfile.TemporaryDirectory(dir=scratch) as tmp:
     rejected=subprocess.run([sys.executable,str(out/'scripts/check_privacy.py')],capture_output=True)
     assert rejected.returncode!=0
     fixture.unlink()
+    private_proposal=base/'private-proposal.md'
+    private_proposal.write_text((ROOT/'project-template/Proposal.md').read_text()+'\nPRIVATE_DRAFT_SENTINEL\n')
+    reviewed=base/'reviewed'
+    assert run('new_project.py','--proposal',private_proposal,'--output',reviewed).returncode==0
+    assert 'PRIVATE_DRAFT_SENTINEL' not in (reviewed/'Proposal.md').read_text()
+    private_proposal.write_text(private_proposal.read_text().replace('cassiohenriqueofc@gmail.com','unapproved'+'@'+'example.net'))
+    assert run('new_project.py','--proposal',private_proposal,'--output',base/'rejected').returncode!=0
     vault=base/'demo-vault';vault.mkdir()
     assert run('install_memory.py','--vault-root',vault).returncode==0
     assert (vault/'aimemory/project-defaults.md').exists()

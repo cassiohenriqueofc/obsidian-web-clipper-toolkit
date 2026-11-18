@@ -23,12 +23,14 @@ scripts/validate.py, scripts/package_release.py and scripts/new_project.py.
 
 ## Known service limits
 
-GitHub rulesets require a supporting plan for the private repo. Integration cannot
-change the Template setting or read some Actions admin settings. Do not claim
-these settings are enabled. Original personal settings exports are not in Git/ZIP.
+GitHub rulesets require a supporting plan for the private repo. The Template flag is verified enabled. The integration cannot read some Actions
+admin settings; the first validate run failed at startup with no jobs. Do not claim
+remote CI passed. Original personal settings exports are not in Git/ZIP.
 
 ## Resume rule
 
 Inspect the repository and actual remote state, read the release checks, and
 continue only outstanding work. Do not replay this chat, regenerate completed
 templates, invent tests, or interpret deferred phases as authorized.
+
+Initial private push completed. Preventative scaffold privacy fixes and the independent model review are included before the release package. Next: verify final remote commit/tag/release assets; keep public hosting disabled.

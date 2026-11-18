@@ -9,4 +9,6 @@
 
 Written contribution rules cannot prevent an authorized maintainer from bypassing Git review. A private repo also does not make committed credentials safe.
 
-The integration also rejected enabling the GitHub Template repository setting (403). The reusable project scaffold is included, but the repository is not claimed to have that flag enabled. Owner action: Settings → General → Template repository; preserve private visibility.
+The repository Template flag was independently verified as enabled after the initial push (is_template=true), while visibility remained private. This observed state supersedes the earlier administration-command error.
+
+GitHub Actions recognizes the validate workflow, but the initial run ended in startup_failure before creating jobs. No successful remote CI result is claimed; local checks are documented separately.

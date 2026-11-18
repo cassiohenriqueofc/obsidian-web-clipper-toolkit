@@ -41,6 +41,14 @@ for key in ['repository_url','landing_page_url']:
         parsed=urlsplit(values[key])
         if parsed.scheme!='https' or not parsed.netloc or parsed.username or parsed.password:p.error(f'{key}: use a real approved HTTPS URL or null')
 if not re.fullmatch(r'[^\s@]+@[^\s@]+\.[^\s@]+',values['contact_email']):p.error('Use the approved public contact email')
+policy=json.loads((ROOT/'.privacy-policy.json').read_text(encoding='utf-8'))
+if not policy.get('public_attribution_authorized') or values['contact_email'] not in policy['public_emails']:
+    p.error('Public contact is not in the explicitly approved attribution policy')
+if any(values[key] not in policy['public_names'] for key in ['author_name','company_name']):
+    p.error('Author/company are not in the explicitly approved attribution policy')
+serialized=json.dumps(values,ensure_ascii=False)
+if re.search(r'\b(?:sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,})',serialized):
+    p.error('Possible credential in proposal fields; value suppressed')
 if a.output.exists() and any(a.output.iterdir()):p.error('Output must be absent or empty; refusing to overwrite')
 render_values=dict(values)
 for key,value in values.items():render_values[key+'_json']=json.dumps(value,ensure_ascii=False)
@@ -55,8 +63,10 @@ for path in (ROOT/'project-template').rglob('*.tmpl'):
 license_text=(ROOT/'LICENSE').read_text(encoding='utf-8')
 pending['LICENSE.md']=pending.get('LICENSE.md',license_text)
 pending['LICENSE']=pending['LICENSE.md']
-pending['Proposal.md']=text
-metadata={'@context':'https://schema.org','@type':values['content_type'],'name':values['project_name'],'description':values['summary'],'version':values['version'],'dateModified':values['date'],'inLanguage':['en-US','pt-BR','es-AR','es-MX','es-ES','de-DE','fr-FR'],'author':{'@type':'Person','name':values['author_name'],'email':'mailto:'+values['contact_email']},'publisher':{'@type':'Organization','name':values['company_name']}}
+pending['Proposal.md']='---\n'+'\n'.join(key+': '+json.dumps(value,ensure_ascii=False) for key,value in values.items())+'\n---\n\n# Public project proposal\n\n'+values['summary']+'\n\nThe source proposal body is not copied automatically because it may contain private drafting notes. Add reviewed scope, acceptance criteria and sources here before implementation. Do not claim that generating this scaffold implements the application.\n'
+delivered_languages=['en-US'] if 'README.md' in pending else []
+delivered_languages+=sorted(name[len('README.'):-len('.md')] for name in pending if re.fullmatch(r'README\.[a-z]{2}-[A-Z]{2}\.md',name))
+metadata={'@context':'https://schema.org','@type':values['content_type'],'name':values['project_name'],'description':values['summary'],'version':values['version'],'dateModified':values['date'],'inLanguage':delivered_languages,'author':{'@type':'Person','name':values['author_name'],'email':'mailto:'+values['contact_email']},'publisher':{'@type':'Organization','name':values['company_name']}}
 if values['repository_url']:metadata['codeRepository']=values['repository_url']
 if values['landing_page_url']:metadata['url']=values['landing_page_url']
 pending['metadata.jsonld']=json.dumps(metadata,ensure_ascii=False,indent=2)+'\n'

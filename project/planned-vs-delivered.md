@@ -9,7 +9,7 @@
 | Documentation and banner | Seven locales, installation commands, generated banner | Human language review remains useful |
 | Online illustration | Animated README diagram and locally previewable linked website | Public hosting intentionally not enabled |
 | SEO/LLM metadata | Conditional canonical/OG/JSON-LD/sitemap and llms navigation | No fabricated deployment URL or ranking claim |
-| Reusable GitHub Template | Proposal-based starter and file templates | Template setting requires repository admin action |
+| Reusable GitHub Template | Proposal-based starter and file templates | Template flag verified enabled; private access rules still apply |
 | Sensitive data protection | Demo config, explicit public attribution allowlist, ignore rules and baseline scanning | Scanner is not a complete secret-detection guarantee |
 | Repository protection | Private visibility preserved and review policy documented | Rulesets need a supporting plan; integration lacks some admin rights |
 | Future-project memory | aimemory note and AGENTS policy included | Must be loaded/installed; not an account-wide setting |

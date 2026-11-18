@@ -19,8 +19,21 @@
   null URL omission, overwrite refusal, privacy rejection and portable memory install.
 - Package integrity and checksums are verified by package_release.py.
 
-Remote push/release/CI results are checked separately after the initial commit.
-Repository settings limitations are documented in repository-protection.md.
+## Remote state
+
+The initial commit was pushed to main in the private repository. The Template
+repository flag is verified true. The validate workflow is active, but its first
+run returned startup_failure before jobs were created. No passing remote CI
+result is claimed. Repository rulesets need a supporting private-repository plan.
+Release assets are verified by the release operation; public hosting is not enabled.
+
+## Independent review
+
+No unrequested scope drift was found. A potential exposure path in future
+scaffolds was corrected before packaging: raw Proposal body text is omitted,
+public attribution is allowlisted, and JSON-LD languages follow delivered files.
+Tests cover those changes. This was a preventative fix, not a finding that real
+private data had leaked into the repository.
 
 ## Not performed
 

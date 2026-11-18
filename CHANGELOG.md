@@ -10,6 +10,7 @@
 - Add local customization, validation, packaging, checksums, and a read-only CI workflow.
 - Document baseline 1.7.1 renderer checks and unperformed live compatibility checks.
 - Adopt the custom noncommercial source-available license selected by the owner.
+- Restrict scaffold output to reviewed public proposal fields and approved attribution; derive language metadata from delivered READMEs.
 - Exclude original settings exports, personal paths, credentials, and private notes.
 
 No automatic second-vault copy, public deployment, or specialist design-system
