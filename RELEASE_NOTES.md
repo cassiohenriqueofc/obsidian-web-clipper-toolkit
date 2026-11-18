@@ -1,4 +1,12 @@
-# v0.1.0 — Private review release / Versão privada para revisão
+# v0.1.1 — Private review release
+
+README and site metadata refresh, corrected repository name, updated internal links,
+and an SEO review based on current Google Search and GitHub guidance. The repository
+and website remain private/non-indexable; no public deployment or search ranking is claimed.
+
+See the original package notes below for template and compatibility limits.
+
+## v0.1.0 — Initial private review release
 
 Three demo-safe general capture templates, manual English Interpreter prompts,
 untruncated supplied source, multilingual Markdown docs, generated banner, animated

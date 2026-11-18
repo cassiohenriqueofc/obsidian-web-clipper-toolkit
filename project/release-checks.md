@@ -1,4 +1,4 @@
-# Release checks — 0.1.0
+# Release checks — 0.1.1
 
 ## Completed locally
 

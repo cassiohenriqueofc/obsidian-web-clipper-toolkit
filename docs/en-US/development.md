@@ -13,14 +13,14 @@ an empty directory, separate from an extracted snapshot:
 ```powershell
 gh auth login
 $gitProject = Join-Path $HOME "Projects\obsidian-web-clipper-git"
-git clone https://github.com/cassiohenriqueofc/obsidian-web-cliper.git $gitProject
+git clone https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit.git $gitProject
 Set-Location -LiteralPath $gitProject
 py -3 scripts/validate.py
 ```
 
 ```bash
 gh auth login
-git clone https://github.com/cassiohenriqueofc/obsidian-web-cliper.git "$HOME/Projects/obsidian-web-clipper-git"
+git clone https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit.git "$HOME/Projects/obsidian-web-clipper-git"
 cd "$HOME/Projects/obsidian-web-clipper-git"
 python3 scripts/validate.py
 ```
@@ -70,9 +70,9 @@ and SHA-256 checksums under ignored dist/. It is not a substitute for reviewing
 the release diff. Commit/tag first, then publish the reviewed ZIP:
 
 ```bash
-git tag -a v0.1.0 -m "Release 0.1.0"
-git push origin v0.1.0
-gh release create v0.1.0 dist/obsidian-web-clipper-v0.1.0.zip dist/SHA256SUMS.txt dist/release-manifest.json --verify-tag --title "v0.1.0 — General capture toolkit" --notes-file RELEASE_NOTES.md
+git tag -a v0.1.1 -m "Release 0.1.1"
+git push origin v0.1.1
+gh release create v0.1.1 dist/obsidian-web-clipper-v0.1.1.zip dist/SHA256SUMS.txt dist/release-manifest.json --verify-tag --title "v0.1.1 — General capture toolkit" --notes-file RELEASE_NOTES.md
 ```
 
 Use a new version for later releases; never overwrite a published tag. Private

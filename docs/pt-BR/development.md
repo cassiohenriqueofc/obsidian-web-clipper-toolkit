@@ -9,14 +9,14 @@ ou GitHub CLI; não coloque tokens no endereço remoto.
 ```powershell
 gh auth login
 $gitProject = Join-Path $HOME "Projects\obsidian-web-clipper-git"
-git clone https://github.com/cassiohenriqueofc/obsidian-web-cliper.git $gitProject
+git clone https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit.git $gitProject
 Set-Location -LiteralPath $gitProject
 py -3 scripts/validate.py
 ```
 
 ```bash
 gh auth login
-git clone https://github.com/cassiohenriqueofc/obsidian-web-cliper.git "$HOME/Projects/obsidian-web-clipper-git"
+git clone https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit.git "$HOME/Projects/obsidian-web-clipper-git"
 cd "$HOME/Projects/obsidian-web-clipper-git"
 python3 scripts/validate.py
 ```

@@ -2,7 +2,7 @@
 
 [English (US)](../en-US/guide.md) · [Português (Brasil)](../pt-BR/guide.md) · [Español (Argentina)](../es-AR/guide.md) · [Español (México)](../es-MX/guide.md) · [Español (España)](../es-ES/guide.md) · [Deutsch](../de-DE/guide.md) · [Français](../fr-FR/guide.md)
 
-Actualizado: 2026-11-18 · 0.1.0 · Versión privada para revisión
+Actualizado: 2026-11-18 · 0.1.1 · Versión privada para revisión
 
 ## Objetivo
 

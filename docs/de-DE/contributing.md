@@ -5,7 +5,7 @@
 Für Projekte einen lokalen Git-Klon und ein privates GitHub-Repository verwenden. Mit Branches, sachlichen Commits, geprüften Änderungen und datiertem Änderungsprotokoll arbeiten. Für Alltagsaufgaben oder einfache Chats kein Repository anlegen.
 
 ```bash
-git clone https://github.com/cassiohenriqueofc/obsidian-web-cliper.git obsidian-web-clipper-git
+git clone https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit.git obsidian-web-clipper-git
 cd obsidian-web-clipper-git
 git switch -c feat/describe-change
 python3 scripts/validate.py

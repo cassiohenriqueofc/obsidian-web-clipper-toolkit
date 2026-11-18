@@ -1,6 +1,6 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.0.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.1.
 
 Private review release. No live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 
@@ -11,6 +11,7 @@ Private review release. No live provider/OS acceptance claim. No automatic secon
 - [es-ES documentation](es-ES/)
 - [de-DE documentation](de-DE/)
 - [fr-FR documentation](fr-FR/)
-- [Repository](https://github.com/cassiohenriqueofc/obsidian-web-cliper)
-- [License](https://github.com/cassiohenriqueofc/obsidian-web-cliper/blob/main/LICENSE)
-- [Handoff](https://github.com/cassiohenriqueofc/obsidian-web-cliper/blob/main/handoff.md)
+- [Repository](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit)
+- [License](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/LICENSE)
+- [Handoff](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/handoff.md)
+- [Search and repository presentation review](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/project/seo-review.md)

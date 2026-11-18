@@ -10,7 +10,7 @@
 
 | Versão | Atualizado em | Documentação | Idioma dos templates | Licença |
 | --- | --- | --- | --- | --- |
-| 0.1.0 | 18 de novembro de 2026 | en-US · pt-BR · es-AR · es-MX · es-ES · de-DE · fr-FR | Inglês | Código disponível, uso não comercial |
+| 0.1.1 | 18 de novembro de 2026 | en-US · pt-BR · es-AR · es-MX · es-ES · de-DE · fr-FR | Inglês | Código disponível, uso não comercial |
 
 ## Introdução e descrição
 
@@ -19,7 +19,7 @@ geram explicações em Markdown usando os dados fornecidos pela página, enquant
 o conteúdo original extraído continua disponível na nota. Escolha uma captura
 detalhada, um formato compacto com fonte no rodapé ou um arquivo sem IA.
 
-Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.0 é uma
+Projeto da comunidade, sem vínculo oficial com a Obsidian. A versão 0.1.1 é uma
 versão privada para revisão. As verificações locais passaram; execução real do
 provedor, gravação nos três sistemas e renderização no Obsidian ainda precisam
 ser verificadas. Referência informada: Web Clipper 1.7.1 e Obsidian 1.15.1 no
