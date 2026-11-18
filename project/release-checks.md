@@ -63,3 +63,12 @@ No claim of zero secret risk or universal webpage capture is made.
   (repository-settings API returned 403). The recommended description is saved
   in `project/seo-review.md`. Topics were not added because GitHub makes topic
   names public even for private repositories.
+
+
+## v0.1.2 animation and README update
+
+- Built `assets/feature-flow.gif` from the existing social-preview image. The five stages show capture, template choice, manual interpretation, source retention, and vault organization. The original static preview is unchanged.
+- Added a motion-reduced static image and a pause/resume control to each generated language page; preserved noindex output.
+- Refreshed the English README intro and updated localized README/guide version labels.
+- `python3 scripts/validate.py`, `python3 scripts/smoke_check.py`, and `git diff --check` passed. `python3 scripts/package_release.py` created and verified the 185-file v0.1.2 archive, manifest, and checksums.
+- Settings edit remains blocked (GitHub API HTTP 403; browser control runtime unavailable). Visibility remains private; template flag remains enabled.

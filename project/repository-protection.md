@@ -22,3 +22,8 @@ GitHub Actions recognizes the validate workflow, but the initial run ended in st
   `project/seo-review.md`; no topics were added.
 - The social-preview asset is prepared in `assets/social-preview.jpg`. The GitHub
   Settings image itself has not been uploaded by this integration.
+
+
+## 2026-11-18 settings check
+
+The owner requested another settings check. The repository remained private and template-enabled. The About-description update was still blocked: the GitHub integration returned HTTP 403 and the browser control runtime was unavailable. No visibility, topics, indexing, or hosting settings were changed.

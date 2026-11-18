@@ -7,7 +7,7 @@
 
 [Installation](docs/de-DE/install.md) · [Vorlagen](templates/) · [Prompt-Übersicht](docs/de-DE/prompt-map.md) · [Beispiele](examples/) · [Lizenz](LICENSE)
 
-Aktualisiert: 2026-11-18 · 0.1.1 · Private Prüffassung
+Aktualisiert: 2026-11-18 · 0.1.2 · Private Prüffassung
 
 ## Überblick
 

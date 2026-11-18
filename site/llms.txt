@@ -1,6 +1,6 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.1.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.2.
 
 Private review release. No live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 

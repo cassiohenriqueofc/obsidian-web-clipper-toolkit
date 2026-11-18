@@ -1,6 +1,6 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.1.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.2.
 
 Private review release. No live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 
@@ -21,17 +21,23 @@ Private review release. No live provider/OS acceptance claim. No automatic secon
   <a href="README.md"><strong>English (US)</strong></a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es-AR.md">Español (Argentina)</a> · <a href="README.es-MX.md">Español (México)</a> · <a href="README.es-ES.md">Español (España)</a> · <a href="README.de-DE.md">Deutsch</a> · <a href="README.fr-FR.md">Français</a>
 </p>
 
+<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Interactive file map</a> · <a href="CHANGELOG.md">Changelog</a></p>
+
 <p align="center">
   <img src="assets/banner.png" alt="A captured web page becomes an organized, source-preserving Obsidian note" width="100%">
 </p>
 
-<h1 align="center">Obsidian Web Clipper Toolkit</h1>
+<h1 align="center">🌐 Obsidian Web Clipper Toolkit</h1>
 
 <p align="center"><strong>Capture the page. Interpret it manually. Keep the source.</strong></p>
 
+<p align="center"><img src="https://img.shields.io/badge/Interpreter-manual-7562c4?style=flat-square" alt="Interpreter execution is manual"> <img src="https://img.shields.io/badge/Docs-7%20languages-258c72?style=flat-square" alt="Documentation in seven languages"> <img src="https://img.shields.io/badge/License-noncommercial-9863c5?style=flat-square" alt="Custom noncommercial license"></p>
+
 <p align="center">
-  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.1">Download v0.1.1</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a>
+  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.2">Download v0.1.2</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
 </p>
+
+<p align="center"><em>Turn a captured page into a reviewed, source-preserving Obsidian note.</em></p>
 
 > [!IMPORTANT]
 > This is a community template toolkit for the official Obsidian Web Clipper. It is not the Obsidian extension. Interpreter execution stays manual; generated notes keep the source content supplied by the Clipper.
@@ -52,12 +58,14 @@ Use these when you want **Obsidian Web Clipper templates**, **manual AI interpre
 
 All generated text is English. Copyable output uses fenced blocks; interactive Obsidian tasks stay outside fences. The archive style does not need a model.
 
-<details>
-<summary>Watch the capture workflow</summary>
+<details open>
+<summary>See how page evidence becomes an organized note</summary>
 
-![Animated workflow: capture a page, choose a template, interpret manually, save a source-preserving note, and version the project](assets/workflow.gif)
+![Animated feature flow: capture page evidence, select a JSON template, run Interpreter manually, preserve source content in Markdown, and connect the note in the vault](assets/feature-flow.gif)
 
 </details>
+
+The static OpenGraph artwork remains in [`assets/social-preview.jpg`](assets/social-preview.jpg); this animation adds a step-by-step explanation for the README and interactive site.
 
 ## Quick start
 
@@ -165,8 +173,7 @@ ranking cannot be measured yet.
 ## Current implementation
 
 - The root README uses the generated banner, language links, a template table,
-  quick-start commands, links to the example notes, and a collapsible animated
-  workflow. GitHub generates a section outline from its Markdown headings.
+  quick-start commands, links to the example notes, and a prominent animated feature flow, a language switcher, navigation, and template links. GitHub generates a section outline from its Markdown headings.
 - Seven language READMEs and seven language pages are linked from the project.
 - The site builder creates descriptive titles, page descriptions, Open Graph and
   Twitter card fields, `SoftwareSourceCode` JSON-LD, language alternates, and a
@@ -174,10 +181,9 @@ ranking cannot be measured yet.
 - Default HTML and robots output remain `noindex`; no public host or canonical URL
   has been supplied or deployed.
 - A separate 1774 × 887 JPEG social preview is 119 KB, within GitHub's documented
-  1 MB image limit. The banner remains the README and page illustration.
+  1 MB image limit. The original banner remains in place; the social-preview JPEG is also the motion-reduced fallback for `assets/feature-flow.gif`.
 - No stars, trending badges, contributor totals, or release counts are hard-coded.
-- The GitHub About description remains unchanged because the connected integration
-  cannot edit repository settings. The recommended replacement is above.
+- The GitHub About description remains unchanged: API edits returned HTTP 403, and browser UI access was unavailable. The recommended replacement is above. Repository visibility remains private and the template flag remains enabled.
 
 ## Publication controls
 

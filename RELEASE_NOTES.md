@@ -1,8 +1,10 @@
-# v0.1.1 — Private review release
+# v0.1.2 — Animated workflow and README refresh
 
-README and site metadata refresh, corrected repository name, updated internal links,
-and an SEO review based on current Google Search and GitHub guidance. The repository
-and website remain private/non-indexable; no public deployment or search ranking is claimed.
+Adds a five-stage animated feature flow based on the existing social-preview
+artwork, motion-reduced static fallback, pause control, and a refreshed README
+introduction. The repository remains private and the generated site remains noindex;
+no public deployment or search ranking is claimed. The GitHub About setting could
+not be edited through the connected integration.
 
 See the original package notes below for template and compatibility limits.
 

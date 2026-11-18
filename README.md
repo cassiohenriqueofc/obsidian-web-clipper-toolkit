@@ -2,17 +2,23 @@
   <a href="README.md"><strong>English (US)</strong></a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es-AR.md">Español (Argentina)</a> · <a href="README.es-MX.md">Español (México)</a> · <a href="README.es-ES.md">Español (España)</a> · <a href="README.de-DE.md">Deutsch</a> · <a href="README.fr-FR.md">Français</a>
 </p>
 
+<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Interactive file map</a> · <a href="CHANGELOG.md">Changelog</a></p>
+
 <p align="center">
   <img src="assets/banner.png" alt="A captured web page becomes an organized, source-preserving Obsidian note" width="100%">
 </p>
 
-<h1 align="center">Obsidian Web Clipper Toolkit</h1>
+<h1 align="center">🌐 Obsidian Web Clipper Toolkit</h1>
 
 <p align="center"><strong>Capture the page. Interpret it manually. Keep the source.</strong></p>
 
+<p align="center"><img src="https://img.shields.io/badge/Interpreter-manual-7562c4?style=flat-square" alt="Interpreter execution is manual"> <img src="https://img.shields.io/badge/Docs-7%20languages-258c72?style=flat-square" alt="Documentation in seven languages"> <img src="https://img.shields.io/badge/License-noncommercial-9863c5?style=flat-square" alt="Custom noncommercial license"></p>
+
 <p align="center">
-  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.1">Download v0.1.1</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a>
+  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.2">Download v0.1.2</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
 </p>
+
+<p align="center"><em>Turn a captured page into a reviewed, source-preserving Obsidian note.</em></p>
 
 > [!IMPORTANT]
 > This is a community template toolkit for the official Obsidian Web Clipper. It is not the Obsidian extension. Interpreter execution stays manual; generated notes keep the source content supplied by the Clipper.
@@ -33,12 +39,14 @@ Use these when you want **Obsidian Web Clipper templates**, **manual AI interpre
 
 All generated text is English. Copyable output uses fenced blocks; interactive Obsidian tasks stay outside fences. The archive style does not need a model.
 
-<details>
-<summary>Watch the capture workflow</summary>
+<details open>
+<summary>See how page evidence becomes an organized note</summary>
 
-![Animated workflow: capture a page, choose a template, interpret manually, save a source-preserving note, and version the project](assets/workflow.gif)
+![Animated feature flow: capture page evidence, select a JSON template, run Interpreter manually, preserve source content in Markdown, and connect the note in the vault](assets/feature-flow.gif)
 
 </details>
+
+The static OpenGraph artwork remains in [`assets/social-preview.jpg`](assets/social-preview.jpg); this animation adds a step-by-step explanation for the README and interactive site.
 
 ## Quick start
 
