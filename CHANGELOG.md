@@ -1,5 +1,12 @@
 # Change log
 
+## 0.1.2 — 2026-11-18
+
+- Add an animated five-stage feature flow based on the existing social-preview image.
+- Add a reduced-motion static fallback and pause/resume control to the multilingual site.
+- Refresh the English README introduction with navigation, accurate feature badges, and the animation.
+- Keep the existing static banner and OpenGraph image.
+
 ## 0.1.1 — 2026-11-18
 
 - Rename the repository to `obsidian-web-clipper-toolkit` and update repository links.

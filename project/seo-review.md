@@ -38,8 +38,7 @@ ranking cannot be measured yet.
 ## Current implementation
 
 - The root README uses the generated banner, language links, a template table,
-  quick-start commands, links to the example notes, and a collapsible animated
-  workflow. GitHub generates a section outline from its Markdown headings.
+  quick-start commands, links to the example notes, and a prominent animated feature flow, a language switcher, navigation, and template links. GitHub generates a section outline from its Markdown headings.
 - Seven language READMEs and seven language pages are linked from the project.
 - The site builder creates descriptive titles, page descriptions, Open Graph and
   Twitter card fields, `SoftwareSourceCode` JSON-LD, language alternates, and a
@@ -47,10 +46,9 @@ ranking cannot be measured yet.
 - Default HTML and robots output remain `noindex`; no public host or canonical URL
   has been supplied or deployed.
 - A separate 1774 × 887 JPEG social preview is 119 KB, within GitHub's documented
-  1 MB image limit. The banner remains the README and page illustration.
+  1 MB image limit. The original banner remains in place; the social-preview JPEG is also the motion-reduced fallback for `assets/feature-flow.gif`.
 - No stars, trending badges, contributor totals, or release counts are hard-coded.
-- The GitHub About description remains unchanged because the connected integration
-  cannot edit repository settings. The recommended replacement is above.
+- The GitHub About description remains unchanged: API edits returned HTTP 403, and browser UI access was unavailable. The recommended replacement is above. Repository visibility remains private and the template flag remains enabled.
 
 ## Publication controls
 

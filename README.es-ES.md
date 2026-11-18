@@ -7,7 +7,7 @@
 
 [Instalación](docs/es-ES/install.md) · [Plantillas](templates/) · [Mapa de prompts](docs/es-ES/prompt-map.md) · [Ejemplos](examples/) · [Licencia](LICENSE)
 
-Actualizado: 2026-11-18 · 0.1.1 · Versión privada para revisión
+Actualizado: 2026-11-18 · 0.1.2 · Versión privada para revisión
 
 ## Resumen
 

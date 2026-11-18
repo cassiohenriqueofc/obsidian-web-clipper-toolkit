@@ -22,6 +22,7 @@ site=ROOT/'site';site.mkdir(exist_ok=True)
 (site/'assets').mkdir(exist_ok=True)
 shutil.copyfile(ROOT/'assets/banner.png',site/'assets/banner.png')
 shutil.copyfile(ROOT/'assets/social-preview.jpg',site/'assets/social-preview.jpg')
+shutil.copyfile(ROOT/'assets/feature-flow.gif',site/'assets/feature-flow.gif')
 shutil.copyfile(ROOT/'web/site.css',site/'assets/site.css')
 shutil.copyfile(ROOT/'web/site.js',site/'assets/site.js')
 repo='https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit'
@@ -45,7 +46,7 @@ for lang,translation in translations.items():
     texts[lang]=dict(title='Web → Notes',desc=translation['intro'],language=translation['language'],intro=translation['readme'],start=translation['title'],download='ZIP',flow=translation['flow'],pause=translation['pause'],resume=translation['resume'],files=translation['map'],private=translation['status'],access=translation['access'],summary=translation['deliveries'],cards=[('Balanced','6 prompts'),('Compact','4 prompts'),('Archive','0 prompts')],steps=[(translation['headings'][0],translation['intro'],'references/README.md'),('Template','JSON','templates/01-balanced-original-callout-clipper.json'),('Interpreter',translation['headings'][9],f'docs/{lang}/prompt-map.md'),('Markdown','Source','examples/01-balanced-original-callout-example.md'),('Git',translation['headings'][2],'CHANGELOG.md')],groups=texts['en-US']['groups'],footer=translation['status']+' · 2026-11-18')
     if lang in localized_seo:
         texts[lang]['title'],texts[lang]['desc']=localized_seo[lang]
-known=['site/index.html','site/file-index.json','site/robots.txt','site/llms.txt','site/llms-full.txt','site/assets/banner.png','site/assets/social-preview.jpg','site/assets/site.css','site/assets/site.js']+[f'site/{lang}/index.html' for lang in texts]
+known=['site/index.html','site/file-index.json','site/robots.txt','site/llms.txt','site/llms-full.txt','site/assets/banner.png','site/assets/social-preview.jpg','site/assets/feature-flow.gif','site/assets/site.css','site/assets/site.js']+[f'site/{lang}/index.html' for lang in texts]
 if base:known.append('site/sitemap.xml')
 else:
     (site/'sitemap.xml').unlink(missing_ok=True)
@@ -79,7 +80,7 @@ for lang,t in texts.items():
 <body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="../{lang}/">WEB → NOTES <span class="muted">/ {version}</span></a><nav aria-label="Menu"><a href="{repo}">GitHub</a><a href="../{other}/">{'Português' if other=='pt-BR' else 'English'}</a><label for="language">{t['language']}<select id="language">{language_options}</select></label></nav></header>
 <main id="main"><section class="hero"><div><div class="eyebrow">{t['intro']}</div><h1>{t['title']}</h1><p class="muted">{t['desc']}</p><div class="actions"><a class="button primary" href="{blob}docs/{lang}/install.md">{t['start']}</a><a class="button" href="{repo}/releases/tag/v{version}">{t['download']}</a></div></div><img class="banner" src="../assets/banner.png" width="1774" height="887" alt="Browser page transformed into structured Markdown notes and a knowledge graph"></section>
 <section><p class="eyebrow">{t['private']}</p><h2>{t['summary']}</h2><div class="facts">{facts}</div></section>
-<section aria-labelledby="flow"><div class="section-head"><h2 id="flow">{t['flow']}</h2><button id="pause" type="button" aria-pressed="false" data-pause="{t['pause']}" data-resume="{t['resume']}">{t['pause']}</button></div><div class="workflow">{steps}</div></section>
+<section aria-labelledby="flow"><div class="section-head"><h2 id="flow">{t['flow']}</h2><button id="pause" type="button" aria-pressed="false" data-pause="{t['pause']}" data-resume="{t['resume']}">{t['pause']}</button></div><img id="flow-image" class="flow-image" src="../assets/feature-flow.gif" data-static="../assets/social-preview.jpg" width="1100" height="550" alt="Five stages: capture page evidence, select a JSON template, run interpretation manually, keep the supplied source in a Markdown note, and connect the note in the vault"><div class="workflow">{steps}</div></section>
 <section aria-labelledby="files"><h2 id="files">{t['files']}</h2><p class="muted">{t['access']}</p><div class="catalog">{catalog}</div></section></main><footer>{t['footer']} <a href="{blob}LICENSE">License</a> · <a href="../llms.txt">llms.txt</a> · <a href="../llms-full.txt">llms-full.txt</a><p>{translations[lang]['contact']}: Cassio Henrique · Múltipla Tecnologia · <a href="mailto:cassiohenriqueofc@gmail.com">cassiohenriqueofc@gmail.com</a></p></footer></body></html>'''
     (directory/'index.html').write_text(content,encoding='utf-8')
 (site/'index.html').write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Choose language</title></head><body>'+ ' · '.join(f'<a href="{lang}/">{t["name"]}</a>' for lang,t in translations.items())+'</body></html>',encoding='utf-8')
