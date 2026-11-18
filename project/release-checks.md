@@ -100,3 +100,11 @@ No claim of zero secret risk or universal webpage capture is made.
 - Updated publishing instructions in all seven locales and recorded personal-site metadata separation in the SEO review.
 - `python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable`, `python3 scripts/validate.py`, `python3 scripts/smoke_check.py`, sitemap/metadata assertions, and `git diff --check` passed locally. The release packager created and verified a 191-file `obsidian-web-clipper-v0.1.4.zip` with manifest and checksums.
 - No GitHub Pages deploy, Search Console verification, sitemap submission, or GitHub Settings update was possible in this session. Actions remains blocked by billing; About/topics/social-preview settings remain pending.
+
+
+## Post-merge deployment state — 2026-11-18
+
+- PR #6 merged to `main` as `57c92624889c5f27b29ae3538dc4a2328ce95879`.
+- The post-merge validate and Pages build runs failed before starting steps; GitHub reports the account billing lock. The deploy job was skipped.
+- GitHub Pages API site creation returned HTTP 403 (`Resource not accessible by integration`). The Pages URL returned HTTP 404 after merge. No deployment or indexing is claimed.
+- The sanitized 0.1.4 ZIP, manifest, and checksums were uploaded on `artifacts/v0.1.4`; the manifest records source commit `87149ae`.
