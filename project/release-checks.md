@@ -92,7 +92,7 @@ No claim of zero secret risk or universal webpage capture is made.
 - About description, topics, and repository social-preview settings remain unchanged; API/UI access is unavailable.
 
 
-## v0.1.4 SEO and handoff preparation — 2026-11-19
+## v0.1.4 SEO implementation — 2026-11-18
 
 - Created a 1200 × 630 JPEG social image and added it to the static site output.
 - Updated page metadata, language alternates, `x-default`, Open Graph/Twitter image dimensions and alt text, and SoftwareSourceCode JSON-LD.
@@ -108,3 +108,11 @@ No claim of zero secret risk or universal webpage capture is made.
 - The post-merge validate and Pages build runs failed before starting steps; GitHub reports the account billing lock. The deploy job was skipped.
 - GitHub Pages API site creation returned HTTP 403 (`Resource not accessible by integration`). The Pages URL returned HTTP 404 after merge. No deployment or indexing is claimed.
 - The sanitized 0.1.4 ZIP, manifest, and checksums are uploaded on `artifacts/v0.1.4`; the manifest identifies its source commit.
+
+
+## v0.1.5 SEO playbook — 2026-11-18
+
+- Added an Obsidian-ready SEO/indexing reference with current locale metadata, platform mockups, Mermaid flow graphs, current indexing status, session notes, sources, and a reusable website-proposal checklist.
+- Added the reference to the English README, project SEO review, generated LLM guide, and site file catalog.
+- Local validation and package checks are recorded in the PR for this change.
+- Deployment remains blocked by the account billing lock.

@@ -1,6 +1,6 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.4.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.5.
 
 Public GitHub repository. Pages deployment is configured but blocked by an account billing lock; no live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 
@@ -15,3 +15,4 @@ Public GitHub repository. Pages deployment is configured but blocked by an accou
 - [License](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/LICENSE)
 - [Handoff](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/handoff.md)
 - [Search and repository presentation review](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/project/seo-review.md)
+- [SEO signals and website proposal playbook](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/project/seo-signals-and-indexing-playbook.md)
