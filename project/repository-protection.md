@@ -12,3 +12,13 @@ Written contribution rules cannot prevent an authorized maintainer from bypassin
 The repository Template flag was independently verified as enabled after the initial push (is_template=true), while visibility remained private. This observed state supersedes the earlier administration-command error.
 
 GitHub Actions recognizes the validate workflow, but the initial run ended in startup_failure before creating jobs. No successful remote CI result is claimed; local checks are documented separately.
+
+## 0.1.1 repository state
+
+- The owner renamed the private template repository to `obsidian-web-clipper-toolkit`.
+  GitHub confirms it remains private and template-enabled.
+- The integration cannot update repository settings: editing the About description
+  returned HTTP 403. A recommended description is documented in
+  `project/seo-review.md`; no topics were added.
+- The social-preview asset is prepared in `assets/social-preview.jpg`. The GitHub
+  Settings image itself has not been uploaded by this integration.
