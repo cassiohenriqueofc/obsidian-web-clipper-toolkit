@@ -1,16 +1,16 @@
 # Obsidian Web Clipper Toolkit
 
-> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.2.
+> English manual-Interpreter templates, original content retention, and multilingual documentation. Version 0.1.3.
 
-Private review release. No live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
+Public GitHub repository. Pages deployment is configured; no live provider/OS acceptance claim. No automatic second-vault copy. Noncommercial source-available license.
 
-- [en-US documentation](en-US/)
-- [pt-BR documentation](pt-BR/)
-- [es-AR documentation](es-AR/)
-- [es-MX documentation](es-MX/)
-- [es-ES documentation](es-ES/)
-- [de-DE documentation](de-DE/)
-- [fr-FR documentation](fr-FR/)
+- [en-US documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/en-US/)
+- [pt-BR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/pt-BR/)
+- [es-AR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-AR/)
+- [es-MX documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-MX/)
+- [es-ES documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/es-ES/)
+- [de-DE documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/de-DE/)
+- [fr-FR documentation](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/fr-FR/)
 - [Repository](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit)
 - [License](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/LICENSE)
 - [Handoff](https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/blob/main/handoff.md)
@@ -21,7 +21,7 @@ Private review release. No live provider/OS acceptance claim. No automatic secon
   <a href="README.md"><strong>English (US)</strong></a> · <a href="README.pt-BR.md">Português (Brasil)</a> · <a href="README.es-AR.md">Español (Argentina)</a> · <a href="README.es-MX.md">Español (México)</a> · <a href="README.es-ES.md">Español (España)</a> · <a href="README.de-DE.md">Deutsch</a> · <a href="README.fr-FR.md">Français</a>
 </p>
 
-<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Interactive file map</a> · <a href="CHANGELOG.md">Changelog</a></p>
+<p align="center"><a href="templates/">Templates</a> · <a href="docs/en-US/install.md">Install</a> · <a href="docs/en-US/guide.md">Guide</a> · <a href="site/en-US/">Live multilingual site</a> · <a href="CHANGELOG.md">Changelog</a></p>
 
 <p align="center">
   <img src="assets/banner.png" alt="A captured web page becomes an organized, source-preserving Obsidian note" width="100%">
@@ -34,10 +34,12 @@ Private review release. No live provider/OS acceptance claim. No automatic secon
 <p align="center"><img src="https://img.shields.io/badge/Interpreter-manual-7562c4?style=flat-square" alt="Interpreter execution is manual"> <img src="https://img.shields.io/badge/Docs-7%20languages-258c72?style=flat-square" alt="Documentation in seven languages"> <img src="https://img.shields.io/badge/License-noncommercial-9863c5?style=flat-square" alt="Custom noncommercial license"></p>
 
 <p align="center">
-  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.2">Download v0.1.2</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
+  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.3">Download v0.1.3</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
 </p>
 
 <p align="center"><em>Turn a captured page into a reviewed, source-preserving Obsidian note.</em></p>
+
+<p align="center"><a href="https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/">Open the live multilingual site</a></p>
 
 > [!IMPORTANT]
 > This is a community template toolkit for the official Obsidian Web Clipper. It is not the Obsidian extension. Interpreter execution stays manual; generated notes keep the source content supplied by the Clipper.
@@ -98,13 +100,13 @@ Then import the customized files from `local-only/templates/`. See the [Windows,
 - [Privacy and data handling](docs/en-US/privacy.md) · [License](LICENSE) · [Credits](docs/en-US/sources.md)
 - [Search and social metadata review](project/seo-review.md) · [Publication guide](docs/en-US/publishing.md)
 - [Current proposal](Proposal.md) · [Release checks](project/release-checks.md) · [Change log](CHANGELOG.md)
-- [Seven-language interactive file map](site/en-US/) — local preview; repository files require GitHub access.
+- [Seven-language interactive site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/) · [Source file map](site/en-US/). Repository files are public on GitHub.
 
 ## Compatibility and status
 
 The project owner reported Web Clipper 1.7.1 and Obsidian 1.15.1 on Windows. That baseline was used for isolated template-renderer checks, not a complete installed-extension acceptance test. Full save checks on Windows, macOS, and Linux and live Interpreter-provider calls remain unverified.
 
-This is a private review release. No public website is deployed. The site generator stays `noindex` until a real public URL is approved. The custom license prohibits commercial use without separate permission; it is source-available, not OSI-approved open source.
+This is a public release. GitHub Pages deployment is configured at [the project URL](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/). The first Actions run must succeed before the site is considered live. The published build uses canonical URLs, Open Graph and Twitter metadata, JSON-LD, a sitemap, and indexable robots rules. The custom license prohibits commercial use without separate permission; it is source-available, not OSI-approved open source.
 
 ## Help and contributions
 
@@ -139,7 +141,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. Report securit
 
 Preferred display name: **Obsidian Web Clipper Toolkit**.
 Repository slug: **obsidian-web-clipper-toolkit**. The owner has now renamed the
-private GitHub repository; the previous `obsidian-web-cliper` spelling omitted a
+public GitHub repository; the previous `obsidian-web-cliper` spelling omitted a
 `p`. The project remains a community template toolkit, not an official Obsidian
 extension.
 
@@ -167,38 +169,30 @@ saved note; and one template offers capture without model interpretation.
 
 This review is a qualitative search-result and repository-page review. It does
 not include Google Keyword Planner volume, Google Search Console performance, or
-stable star/fork rankings. The repository is private, so public discovery and
-ranking cannot be measured yet.
+stable star/fork rankings. The repository is now public; search ranking and indexing results still require time and Search Console data.
 
 ## Current implementation
 
-- The root README uses the generated banner, language links, a template table,
-  quick-start commands, links to the example notes, and a prominent animated feature flow, a language switcher, navigation, and template links. GitHub generates a section outline from its Markdown headings.
+- The root README uses the generated banner, language links, a template table, quick-start commands, example links, navigation, and a prominent animated feature flow.
 - Seven language READMEs and seven language pages are linked from the project.
-- The site builder creates descriptive titles, page descriptions, Open Graph and
-  Twitter card fields, `SoftwareSourceCode` JSON-LD, language alternates, and a
-  sitemap when an approved HTTPS base URL is provided.
-- Default HTML and robots output remain `noindex`; no public host or canonical URL
-  has been supplied or deployed.
+- The site builder creates descriptive titles, page descriptions, Open Graph and Twitter fields, `SoftwareSourceCode` JSON-LD, language alternates, and a sitemap when given its canonical HTTPS URL.
+- GitHub Pages is configured at the repository URL. The first deployment must succeed before the site is considered live. The workflow builds with canonical URLs, language alternates, Open Graph/Twitter metadata, JSON-LD, a sitemap, and indexable robots rules.
 - A separate 1774 × 887 JPEG social preview is 119 KB, within GitHub's documented
   1 MB image limit. The original banner remains in place; the social-preview JPEG is also the motion-reduced fallback for `assets/feature-flow.gif`.
 - No stars, trending badges, contributor totals, or release counts are hard-coded.
-- The GitHub About description remains unchanged: API edits returned HTTP 403, and browser UI access was unavailable. The recommended replacement is above. Repository visibility remains private and the template flag remains enabled.
+- GitHub confirms that the repository is public and template-enabled. The connected API still returned HTTP 403 for About-description and topic changes; browser settings access was unavailable. The repository description remains its earlier wording.
 
 ## Publication controls
 
-Before publication:
+After publication:
 
 1. Review the entire Git diff, release ZIP, settings, and privacy scan.
-2. Choose and confirm a real HTTPS landing-page URL. Rebuild with that URL only
-   after public hosting and indexing are separately authorized.
+2. The canonical URL is the GitHub Pages project URL. Confirm it remains the deployed host before changing repository names or hosting.
 3. Verify titles, descriptions, canonical URLs, language alternates, social image,
    JSON-LD, robots policy, and sitemap on the live site. Register and verify the
    property in Google Search Console before requesting indexing.
-4. Add GitHub topic tags only when ready for them to be public. GitHub documents
-   that topic names remain public even on private repositories.
-5. Set the GitHub repository social-preview image in repository Settings if
-   desired; the social preview asset is provided at `assets/social-preview.jpg`.
+4. GitHub topic tags are still pending because the connected settings API and browser UI could not update them.
+5. The GitHub social-preview image remains a manual Settings item; use `assets/social-preview.jpg`. The animated feature flow is separate and available in the README/site.
 6. Do not add an `FAQPage` rich-result strategy: Google removed FAQ rich results
    in May 2026. Keep helpful FAQ prose only if it answers real user questions.
 
@@ -220,65 +214,30 @@ pages qualify for supported search features; it does not guarantee a rich result
 - [GitHub repository search guidance](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)
 
 
-# Review before publication
+# Publishing and indexing
 
 [Português](../pt-BR/publishing.md) · [Home](../../README.md)
 
-The first release is private. This project does not enable GitHub Pages, change
-repository visibility, or deploy a public website automatically. GitHub Pages
-eligibility for private repositories depends on account/plan. A private source
-repository does not by itself guarantee that a deployed website is private.
-Check [GitHub's Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+## Live destination
 
-## Preview locally
+The owner authorized public indexing and deployment. The project uses GitHub Pages at:
+
+`https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/`
+
+`.github/workflows/deploy-pages.yml` builds the multilingual `site/` directory with the canonical URL and `--indexable`, validates it, enables Pages, and deploys the artifact after pushes to `main`. Check the Actions run and open all locale paths after the first deployment; a configured workflow alone does not prove the site is live.
+
+The generated output includes canonical URLs, hreflang alternatives, Open Graph and Twitter metadata, SoftwareSourceCode JSON-LD, `robots.txt`, `sitemap.xml`, `llms.txt`, and `llms-full.txt`. Search indexing can take time and is not guaranteed.
+
+## Preview or rebuild
 
 ```bash
-python3 scripts/build_site.py
+python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable
+python3 scripts/validate.py
 python3 -m http.server 8000 --bind 127.0.0.1 --directory site
 ```
 
-Open http://127.0.0.1:8000/en-US/ or /pt-BR/. On Windows use py -3.
+The builder does not deploy. GitHub Actions performs deployment. The default build without `--indexable` remains noindex for local previews.
 
-## Prepare a reviewed public URL
+The Open Graph image is static (`assets/social-preview.jpg`); the animated feature flow is separate. Set the repository's social-preview image through GitHub Settings if desired. Repository About metadata and topics are managed separately and remain pending if the connected settings access rejects them.
 
-Only after choosing the actual destination, build absolute metadata with the
-actual approved URL; the following is a demonstration, not a deployed site:
-
-```bash
-python3 scripts/build_site.py --base-url https://example.invalid/obsidian-web-clipper/ --indexable
-python3 scripts/validate.py
-```
-
-Replace example.invalid. This enables canonical, hreflang, og:url, og:image,
-Twitter image, JSON-LD URLs, sitemap, and indexable robots output. Deploy only the
-site/ directory to the approved host. The builder does not deploy anything.
-
-Open Graph previews are static social metadata; the clickable animated file
-map is an independent HTML/SVG feature. Banner dimensions are 1774 × 887.
-Links to repository files still require GitHub access while the repository is private.
-
-The README is rendered Markdown; its headings, images and links are not HTML
-page-head metadata. The generated website owns the Open Graph, Twitter, canonical
-and JSON-LD fields. Its default output remains noindex until a real public URL is
-approved. The compact repository preview asset is
-[`assets/social-preview.jpg`](../../assets/social-preview.jpg) (under 1 MB).
-Upload it in GitHub repository Settings → Social preview if you want GitHub link
-cards to use it. GitHub topic names are public even when the repository is
-private, so do not add topics until you approve their public visibility.
-
-## SEO and LLM review
-
-Verify both language pages, title/description, canonical destination, absolute
-image URL, robots policy, and the sitemap after hosting. Review llms.txt and
-llms-full.txt as optional navigation for clients that support them; Google says
-llms.txt does not change Google Search visibility or rankings. Google also says
-there is no special schema required for AI search. Accurate page content,
-descriptive titles, useful links, and a working mobile page remain the focus.
-Structured data describes the software but does not guarantee a rich result.
-There is no A2A service, automated agent endpoint, or promise that private
-content is publicly crawlable.
-
-Review license terms, screenshots, Git history, staged files, sample data, local
-paths, and credentials before any public visibility change. Enabling public
-Pages or changing a repo to public is a separate owner approval, not a side
-effect of creating a private release.
+Check page titles, descriptions, canonical destinations, language alternates, image URLs, robots policy, sitemap, and mobile layout after deployment. `llms.txt` may help compatible clients navigate documentation; it does not change Google rankings. Structured data describes the software but does not guarantee rich results.

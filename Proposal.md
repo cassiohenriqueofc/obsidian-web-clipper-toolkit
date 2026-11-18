@@ -2,26 +2,26 @@
 project_name: "Obsidian Web Clipper Toolkit"
 project_slug: "obsidian-web-clipper"
 summary: "Manual Interpreter templates with source retention and a reusable private-project starter."
-version: "0.1.1"
+version: "0.1.3"
 date: "2026-11-18"
 default_language: "en-US"
 author_name: "Cassio Henrique"
 company_name: "Múltipla Tecnologia"
 contact_email: "cassiohenriqueofc@gmail.com"
 repository_url: "https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit"
-landing_page_url: null
+landing_page_url: "https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/"
 content_type: "SoftwareSourceCode"
 license_id: "LicenseRef-Noncommercial-Source-Available-1.0"
-data_classification: "demo-only"
+data_classification: "public project; demo-only examples"
 ---
 
-# Revised proposal — 0.1.1
+# Revised proposal — 0.1.3
 
 ## Problem and result
 
 Maintain inspectable templates that turn page evidence into organized Markdown
 through manual interpretation while retaining the content supplied by Clipper.
-Package them as a private, versioned project that can be downloaded and reused.
+Package them as a versioned project that can be downloaded and reused.
 The owner subsequently expanded scope to include a generic project starter,
 seven documentation locales, attribution, memory rules and a repository/file map.
 
@@ -36,11 +36,11 @@ seven documentation locales, attribution, memory rules and a repository/file map
    for everyday tasks or simple chats. Portable aimemory and AGENTS instructions.
 7. A sanitized ZIP, manifest and checksums in each private release.
 8. A polished, multilingual README and site entry point, corrected repository naming,
-   and social metadata prepared without enabling public indexing or hosting.
+   and social metadata prepared for the approved public GitHub Pages deployment and indexing.
 
 ## Publication and license decisions
 
-Public hosting and repository visibility changes remain outside this release.
+The owner made this repository public and authorized GitHub Pages hosting and indexing. The site is configured at the approved project URL; confirm the first Actions run before claiming successful deployment.
 The selected custom license prohibits commercial use without separate permission;
 shared modifications retain source, attribution, license and dated change log.
 It does not require publication of private edits or every private Git commit.

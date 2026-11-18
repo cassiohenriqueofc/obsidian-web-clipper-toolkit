@@ -7,7 +7,7 @@
 
 [Installation](docs/fr-FR/install.md) · [Modèles](templates/) · [Carte des prompts](docs/fr-FR/prompt-map.md) · [Exemples](examples/) · [Licence](LICENSE)
 
-Mis à jour: 2026-11-18 · 0.1.2 · Version privée à vérifier
+Mis à jour: 2026-11-18 · 0.1.3 · Version publique · GitHub Pages configuré
 
 ## Présentation
 
@@ -80,6 +80,6 @@ Licence à code source disponible, réservée à un usage non commercial. L’us
 <details>
 <summary>Animated workflow / Fluxo animado</summary>
 
-![Page to template, manual interpretation, source-preserving Markdown and private Git versions](assets/workflow.gif)
+![Page to template, manual interpretation, source-preserving Markdown and versions controlées avec Git](assets/workflow.gif)
 
 </details>

@@ -2,9 +2,7 @@
 
 Adds a five-stage animated feature flow based on the existing social-preview
 artwork, motion-reduced static fallback, pause control, and a refreshed README
-introduction. The repository remains private and the generated site remains noindex;
-no public deployment or search ranking is claimed. The GitHub About setting could
-not be edited through the connected integration.
+introduction. The owner later made the repository public and authorized GitHub Pages deployment. The v0.1.2 package itself predates that visibility change; see the current README and deployment workflow for live-site status. The About setting could not be edited through the connected integration.
 
 See the original package notes below for template and compatibility limits.
 

@@ -7,7 +7,7 @@
 
 [Installation](docs/de-DE/install.md) · [Vorlagen](templates/) · [Prompt-Übersicht](docs/de-DE/prompt-map.md) · [Beispiele](examples/) · [Lizenz](LICENSE)
 
-Aktualisiert: 2026-11-18 · 0.1.2 · Private Prüffassung
+Aktualisiert: 2026-11-18 · 0.1.3 · Öffentliche Version · GitHub Pages konfiguriert
 
 ## Überblick
 
@@ -80,6 +80,6 @@ Quellverfügbare Lizenz für nichtkommerzielle Nutzung. Kommerzielle Nutzung ben
 <details>
 <summary>Animated workflow / Fluxo animado</summary>
 
-![Page to template, manual interpretation, source-preserving Markdown and private Git versions](assets/workflow.gif)
+![Page to template, manual interpretation, source-preserving Markdown and versionskontrollierte Git-Projekte](assets/workflow.gif)
 
 </details>

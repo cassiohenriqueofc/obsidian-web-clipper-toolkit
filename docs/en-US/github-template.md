@@ -5,7 +5,7 @@ This repo includes a clean Proposal-based scaffold and AGENTS instructions.
 
 ## Template setting
 
-The repository Template flag is verified as enabled and visibility remains private.
+The repository Template flag is enabled and the repository is public.
 An owner can inspect it under Settings → General → Template repository.
 A private template remains subject to GitHub access rules.
 

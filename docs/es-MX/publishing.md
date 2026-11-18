@@ -1,20 +1,9 @@
-# Publicación y metadatos
+# Publicación e indexación
 
-Revisa la vista local primero. Publicar y cambiar la visibilidad requiere aprobación separada. El sitio usa noindex por defecto. Indica la URL HTTPS real y aprobada para generar canonical, Open Graph, hreflang y sitemap. Los archivos llms no garantizan posicionamiento.
+[English](../en-US/publishing.md) · [Inicio](../../README.md)
 
-```bash
-python3 scripts/build_site.py
-python3 -m http.server 8000 --bind 127.0.0.1 --directory site
-```
+GitHub Pages está configurado para `https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/`. El workflow genera el sitio en siete idiomas con canonical, Open Graph/Twitter, JSON-LD, sitemap y robots indexable, y lo publica después de cada push a `main`. Verifica que la primera ejecución de Actions concluya correctamente antes de considerar que el sitio está disponible.
 
-Usa datos de demostración. Excluye configuraciones locales, credenciales, notas privadas y rutas personales. Un repositorio privado no protege un secreto incorporado al historial. El titular autorizó únicamente la atribución indicada abajo.
+Para reconstruir localmente: `python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable`. El generador no publica; GitHub Actions realiza el despliegue.
 
-[Guía del proyecto](guide.md)
-
-El README es Markdown renderizado; los metadatos Open Graph, Twitter, canonical y
-JSON-LD pertenecen al sitio generado. La imagen compacta para la vista previa está
-en [assets/social-preview.jpg](../../assets/social-preview.jpg). Si lo deseas,
-súbela en GitHub Settings → Social preview. Los nombres de los topics de GitHub
-son públicos incluso si el repositorio es privado; espera la aprobación antes de
-agregarlos. Google indica que llms.txt no cambia la visibilidad ni el ranking en
-Google Search y que la búsqueda con IA no requiere un schema especial.
+La imagen Open Graph es estática (`assets/social-preview.jpg`); el GIF explicativo es independiente. El About, los temas y la imagen social de GitHub se administran en Settings; la conexión actual no puede modificarlos.

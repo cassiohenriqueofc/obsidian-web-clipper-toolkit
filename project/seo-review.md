@@ -4,7 +4,7 @@
 
 Preferred display name: **Obsidian Web Clipper Toolkit**.
 Repository slug: **obsidian-web-clipper-toolkit**. The owner has now renamed the
-private GitHub repository; the previous `obsidian-web-cliper` spelling omitted a
+public GitHub repository; the previous `obsidian-web-cliper` spelling omitted a
 `p`. The project remains a community template toolkit, not an official Obsidian
 extension.
 
@@ -32,38 +32,30 @@ saved note; and one template offers capture without model interpretation.
 
 This review is a qualitative search-result and repository-page review. It does
 not include Google Keyword Planner volume, Google Search Console performance, or
-stable star/fork rankings. The repository is private, so public discovery and
-ranking cannot be measured yet.
+stable star/fork rankings. The repository is now public; search ranking and indexing results still require time and Search Console data.
 
 ## Current implementation
 
-- The root README uses the generated banner, language links, a template table,
-  quick-start commands, links to the example notes, and a prominent animated feature flow, a language switcher, navigation, and template links. GitHub generates a section outline from its Markdown headings.
+- The root README uses the generated banner, language links, a template table, quick-start commands, example links, navigation, and a prominent animated feature flow.
 - Seven language READMEs and seven language pages are linked from the project.
-- The site builder creates descriptive titles, page descriptions, Open Graph and
-  Twitter card fields, `SoftwareSourceCode` JSON-LD, language alternates, and a
-  sitemap when an approved HTTPS base URL is provided.
-- Default HTML and robots output remain `noindex`; no public host or canonical URL
-  has been supplied or deployed.
+- The site builder creates descriptive titles, page descriptions, Open Graph and Twitter fields, `SoftwareSourceCode` JSON-LD, language alternates, and a sitemap when given its canonical HTTPS URL.
+- GitHub Pages is configured at the repository URL. The first deployment must succeed before the site is considered live. The workflow builds with canonical URLs, language alternates, Open Graph/Twitter metadata, JSON-LD, a sitemap, and indexable robots rules.
 - A separate 1774 × 887 JPEG social preview is 119 KB, within GitHub's documented
   1 MB image limit. The original banner remains in place; the social-preview JPEG is also the motion-reduced fallback for `assets/feature-flow.gif`.
 - No stars, trending badges, contributor totals, or release counts are hard-coded.
-- The GitHub About description remains unchanged: API edits returned HTTP 403, and browser UI access was unavailable. The recommended replacement is above. Repository visibility remains private and the template flag remains enabled.
+- GitHub confirms that the repository is public and template-enabled. The connected API still returned HTTP 403 for About-description and topic changes; browser settings access was unavailable. The repository description remains its earlier wording.
 
 ## Publication controls
 
-Before publication:
+After publication:
 
 1. Review the entire Git diff, release ZIP, settings, and privacy scan.
-2. Choose and confirm a real HTTPS landing-page URL. Rebuild with that URL only
-   after public hosting and indexing are separately authorized.
+2. The canonical URL is the GitHub Pages project URL. Confirm it remains the deployed host before changing repository names or hosting.
 3. Verify titles, descriptions, canonical URLs, language alternates, social image,
    JSON-LD, robots policy, and sitemap on the live site. Register and verify the
    property in Google Search Console before requesting indexing.
-4. Add GitHub topic tags only when ready for them to be public. GitHub documents
-   that topic names remain public even on private repositories.
-5. Set the GitHub repository social-preview image in repository Settings if
-   desired; the social preview asset is provided at `assets/social-preview.jpg`.
+4. GitHub topic tags are still pending because the connected settings API and browser UI could not update them.
+5. The GitHub social-preview image remains a manual Settings item; use `assets/social-preview.jpg`. The animated feature flow is separate and available in the README/site.
 6. Do not add an `FAQPage` rich-result strategy: Google removed FAQ rich results
    in May 2026. Keep helpful FAQ prose only if it answers real user questions.
 

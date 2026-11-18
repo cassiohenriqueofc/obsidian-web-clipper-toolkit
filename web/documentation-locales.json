@@ -11,7 +11,7 @@
     "sources": "Use verified Markdown URL links on GitHub and separate wikilinks for existing Obsidian notes. Record upstream URL, revision, license, reused files and changes before distributing reused work. Do not invent attribution or assume license compatibility.",
     "starter": "Edit the flat frontmatter in project-template/Proposal.md. Render a new, empty directory using new_project.py. The generator never creates a remote, pushes, deploys, or implements the application. Review names, email, URLs and license before publishing.",
     "storage": "Keep the full local clone and the private remote. Commit and push reviewed work; GitHub is not automatic synchronization. Keep a separate backup for ignored settings. Remove duplicate ZIPs and disposable previews to reduce disk usage, not source templates or scripts.",
-    "publish": "Preview locally first. Public hosting and repository visibility changes need separate approval. The default site uses noindex; provide the real approved HTTPS base URL to generate canonical, Open Graph, hreflang and sitemap metadata. llms files improve navigation for compatible tools, not guaranteed ranking.",
+    "publish": "Public GitHub Pages deployment is configured at the canonical project URL. Verify the first Actions deployment before relying on the live site.",
     "validation": "Template structure, local links, privacy patterns, packaging and browser page interactions are checked locally. Earlier isolated 1.7.1 renderer checks passed. Live provider execution, installed extension saves and Windows/macOS/Linux end-to-end acceptance remain pending.",
     "limitations": "The original content variable may contain a selection or highlights. The AI context is bounded. In Clipper 1.7.1 literal template expressions can be reprocessed in AI variants; use Archive without Interpreter when this matters. Automatic second-vault copying is not implemented.",
     "headings": [
@@ -28,7 +28,7 @@
     ],
     "commands": "Commands",
     "notes": "Notes",
-    "status": "Private review release",
+    "status": "Public release · GitHub Pages",
     "file": "File templates",
     "file_rules": "For each new file, state its real purpose, data classification, source credit when applicable, and meaningful validation. Notes use flat YAML; source files use a short useful header; comments explain reasons and constraints instead of repeating code. Never invent tests or results.",
     "readme": "Overview",
@@ -40,7 +40,7 @@
     "resume": "Resume animation",
     "map": "Every release file, connected",
     "flow": "From a page to a durable note",
-    "access": "Repository links require GitHub access while private."
+    "access": "Repository files are public on GitHub."
   },
   "pt-BR": {
     "name": "Português (Brasil)",
@@ -54,7 +54,7 @@
     "sources": "Use links Markdown com URLs verificadas no GitHub e wikilinks separados para notas existentes no Obsidian. Registre URL, revisão, licença, arquivos reutilizados e alterações antes da distribuição. Não invente créditos nem compatibilidade de licenças.",
     "starter": "Edite o frontmatter simples de project-template/Proposal.md. Gere uma pasta nova e vazia com new_project.py. O gerador não cria remoto, não envia commits, não publica site e não implementa a aplicação. Revise nome, contato, URLs e licença antes de publicar.",
     "storage": "Mantenha o clone local completo e o remoto privado. Faça commit e push após revisar: o GitHub não sincroniza arquivos automaticamente. Faça backup separado das configurações ignoradas. Para economizar espaço, remova ZIPs duplicados e prévias descartáveis, não templates ou scripts.",
-    "publish": "Visualize localmente primeiro. Hospedagem pública e mudanças de visibilidade exigem autorização separada. O padrão é noindex. Informe a URL HTTPS real e aprovada para gerar canonical, Open Graph, hreflang e sitemap. Arquivos llms ajudam clientes compatíveis, sem garantir ranking.",
+    "publish": "O deploy público no GitHub Pages está configurado no URL canônico do projeto. Verifique a primeira execução antes de considerar o site no ar.",
     "validation": "Estrutura dos templates, links, padrões de privacidade, pacote e interações da página são verificados localmente. Os testes isolados anteriores do renderizador 1.7.1 passaram. Provedor real, gravação na extensão e testes completos nos três sistemas continuam pendentes.",
     "limitations": "O conteúdo original pode representar seleção ou destaques. O contexto da IA tem limites. O Clipper 1.7.1 pode reprocessar expressões literais nos estilos com IA; prefira Archive sem Interpreter nesses casos. A cópia automática entre cofres não está implementada.",
     "headings": [
@@ -71,7 +71,7 @@
     ],
     "commands": "Comandos",
     "notes": "Notas",
-    "status": "Versão privada para revisão",
+    "status": "Versão pública · GitHub Pages",
     "file": "Modelos de arquivos",
     "file_rules": "Cada arquivo novo deve indicar função real, classificação dos dados, fonte quando aplicável e validação relevante. Notas usam YAML simples; código usa um cabeçalho útil e curto. Comentários explicam motivos e restrições, sem repetir o código. Não invente testes ou resultados.",
     "readme": "Visão geral",
@@ -83,7 +83,7 @@
     "resume": "Retomar animação",
     "map": "Todos os arquivos da versão, conectados",
     "flow": "Da página a uma nota durável",
-    "access": "Os links exigem acesso ao GitHub enquanto o repositório for privado."
+    "access": "Os arquivos do repositório estão públicos no GitHub."
   },
   "es-AR": {
     "name": "Español (Argentina)",
@@ -97,7 +97,7 @@
     "sources": "Usá enlaces Markdown con URL verificadas en GitHub y wikilinks separados para notas existentes de Obsidian. Registrá URL de origen, revisión, licencia, archivos reutilizados y cambios. No inventes créditos ni compatibilidad entre licencias.",
     "starter": "Editá los metadatos simples de project-template/Proposal.md y generá una carpeta nueva y vacía con new_project.py. El generador no crea repositorios remotos, no hace push, no publica ni implementa la aplicación. Revisá nombres, correo, URL y licencia antes de compartir.",
     "storage": "Conservá el clon local completo y el remoto privado. Hacé commit y push después de revisar; GitHub no sincroniza archivos automáticamente. Respaldá por separado los ajustes excluidos. Para ahorrar espacio, borrá ZIP duplicados y vistas descartables, no fuentes ni scripts.",
-    "publish": "Probá la vista local primero. La publicación y los cambios de visibilidad requieren aprobación separada. El sitio usa noindex por defecto. Indicá la URL HTTPS real y aprobada para generar canonical, Open Graph, hreflang y sitemap. Los archivos llms no garantizan posicionamiento.",
+    "publish": "El despliegue público en GitHub Pages está configurado en la URL canónica del proyecto. Verificá la primera ejecución antes de dar el sitio por disponible.",
     "validation": "Se verifican localmente estructura, enlaces, patrones de privacidad, paquete e interacciones del sitio. Pasaron las pruebas aisladas anteriores del renderizador 1.7.1. Faltan proveedor real, guardado desde la extensión y pruebas completas en Windows, macOS y Linux.",
     "limitations": "El contenido original puede ser una selección o destacados. El contexto de IA tiene límites. Clipper 1.7.1 puede reprocesar expresiones literales en variantes con IA; usá Archive sin Interpreter si afecta la fuente. No hay copia automática entre bóvedas.",
     "headings": [
@@ -114,7 +114,7 @@
     ],
     "commands": "Comandos",
     "notes": "Notas",
-    "status": "Versión privada para revisión",
+    "status": "Versión pública · GitHub Pages",
     "file": "Plantillas de archivos",
     "file_rules": "Cada archivo nuevo debe indicar su función real, clasificación de datos, fuentes aplicables y validación relevante. Las notas usan YAML simple; el código lleva un encabezado breve y útil. Los comentarios explican motivos y restricciones, sin repetir código. No inventes pruebas ni resultados.",
     "readme": "Resumen",
@@ -126,7 +126,7 @@
     "resume": "Reanudar animación",
     "map": "Todos los archivos de la versión, conectados",
     "flow": "De una página a una nota duradera",
-    "access": "Los enlaces requieren acceso a GitHub mientras el repositorio sea privado."
+    "access": "Los archivos del repositorio son públicos en GitHub."
   },
   "es-MX": {
     "name": "Español (México)",
@@ -140,7 +140,7 @@
     "sources": "Usa enlaces Markdown con URL verificadas en GitHub y wikilinks separados para notas existentes de Obsidian. Registra URL de origen, revisión, licencia, archivos reutilizados y cambios. No inventes créditos ni compatibilidad entre licencias.",
     "starter": "Edita los metadatos simples de project-template/Proposal.md y genera una carpeta nueva y vacía con new_project.py. El generador no crea remotos, no hace push, no publica ni implementa la aplicación. Revisa nombres, correo, URL y licencia antes de compartir.",
     "storage": "Conserva el clon local completo y el remoto privado. Haz commit y push después de revisar; GitHub no sincroniza archivos automáticamente. Respalda por separado los ajustes excluidos. Para ahorrar espacio, elimina ZIP duplicados y vistas descartables, no fuentes ni scripts.",
-    "publish": "Revisa la vista local primero. Publicar y cambiar la visibilidad requiere aprobación separada. El sitio usa noindex por defecto. Indica la URL HTTPS real y aprobada para generar canonical, Open Graph, hreflang y sitemap. Los archivos llms no garantizan posicionamiento.",
+    "publish": "El despliegue público en GitHub Pages está configurado en la URL canónica del proyecto. Verifica la primera ejecución antes de considerar que el sitio está disponible.",
     "validation": "Se verifican localmente estructura, enlaces, patrones de privacidad, paquete e interacciones del sitio. Pasaron las pruebas aisladas anteriores del renderizador 1.7.1. Faltan proveedor real, guardado desde la extensión y pruebas completas en Windows, macOS y Linux.",
     "limitations": "El contenido original puede ser una selección o destacados. El contexto de IA tiene límites. Clipper 1.7.1 puede reprocesar expresiones literales en variantes con IA; usa Archive sin Interpreter si afecta la fuente. No hay copia automática entre bóvedas.",
     "headings": [
@@ -157,7 +157,7 @@
     ],
     "commands": "Comandos",
     "notes": "Notas",
-    "status": "Versión privada para revisión",
+    "status": "Versión pública · GitHub Pages",
     "file": "Plantillas de archivos",
     "file_rules": "Cada archivo nuevo debe indicar su función real, clasificación de datos, fuentes aplicables y validación relevante. Las notas usan YAML simple; el código lleva un encabezado breve y útil. Los comentarios explican motivos y restricciones, sin repetir código. No inventes pruebas ni resultados.",
     "readme": "Resumen",
@@ -169,7 +169,7 @@
     "resume": "Reanudar animación",
     "map": "Todos los archivos de la versión, conectados",
     "flow": "De una página a una nota duradera",
-    "access": "Los enlaces requieren acceso a GitHub mientras el repositorio sea privado."
+    "access": "Los archivos del repositorio son públicos en GitHub."
   },
   "es-ES": {
     "name": "Español (España)",
@@ -183,7 +183,7 @@
     "sources": "Utiliza enlaces Markdown con URL verificadas en GitHub y wikilinks separados para notas existentes de Obsidian. Registra URL de origen, revisión, licencia, archivos reutilizados y cambios. No inventes créditos ni compatibilidad entre licencias.",
     "starter": "Edita los metadatos simples de project-template/Proposal.md y genera una carpeta nueva y vacía con new_project.py. El generador no crea remotos, no hace push, no publica ni implementa la aplicación. Revisa nombres, correo, URL y licencia antes de compartir.",
     "storage": "Conserva el clon local completo y el remoto privado. Haz commit y push tras revisar; GitHub no sincroniza archivos automáticamente. Guarda aparte una copia de seguridad de los ajustes excluidos. Para ahorrar espacio, elimina ZIP duplicados y vistas desechables, no fuentes ni scripts.",
-    "publish": "Revisa primero la vista local. La publicación y los cambios de visibilidad requieren aprobación separada. El sitio usa noindex por defecto. Indica la URL HTTPS real y aprobada para generar canonical, Open Graph, hreflang y sitemap. Los archivos llms no garantizan posicionamiento.",
+    "publish": "El despliegue público en GitHub Pages está configurado en la URL canónica del proyecto. Comprueba la primera ejecución antes de dar el sitio por disponible.",
     "validation": "Se comprueban localmente estructura, enlaces, patrones de privacidad, paquete e interacciones del sitio. Pasaron las pruebas aisladas anteriores del renderizador 1.7.1. Faltan proveedor real, guardado desde la extensión y pruebas completas en Windows, macOS y Linux.",
     "limitations": "El contenido original puede ser una selección o destacados. El contexto de IA tiene límites. Clipper 1.7.1 puede reprocesar expresiones literales en variantes con IA; utiliza Archive sin Interpreter si afecta a la fuente. No hay copia automática entre bóvedas.",
     "headings": [
@@ -200,7 +200,7 @@
     ],
     "commands": "Comandos",
     "notes": "Notas",
-    "status": "Versión privada para revisión",
+    "status": "Versión pública · GitHub Pages",
     "file": "Plantillas de archivos",
     "file_rules": "Cada archivo nuevo debe indicar su función real, clasificación de datos, fuentes aplicables y validación relevante. Las notas usan YAML simple; el código lleva un encabezado breve y útil. Los comentarios explican motivos y restricciones, sin repetir código. No inventes pruebas ni resultados.",
     "readme": "Resumen",
@@ -212,7 +212,7 @@
     "resume": "Reanudar animación",
     "map": "Todos los archivos de la versión, conectados",
     "flow": "De una página a una nota duradera",
-    "access": "Los enlaces requieren acceso a GitHub mientras el repositorio sea privado."
+    "access": "Los archivos del repositorio son públicos en GitHub."
   },
   "de-DE": {
     "name": "Deutsch",
@@ -226,7 +226,7 @@
     "sources": "Auf GitHub geprüfte Markdown-URL-Links verwenden; Wikilinks getrennt für vorhandene Obsidian-Notizen. Vor Weitergabe Herkunfts-URL, Revision, Lizenz, übernommene Dateien und Änderungen dokumentieren. Keine Quellenangaben oder Lizenzkompatibilität erfinden.",
     "starter": "Die einfachen Metadaten in project-template/Proposal.md bearbeiten und mit new_project.py ein neues leeres Verzeichnis erzeugen. Der Generator erstellt kein Remote-Repository, pusht nicht, veröffentlicht nicht und implementiert keine Anwendung. Namen, E-Mail, URLs und Lizenz vor Veröffentlichung prüfen.",
     "storage": "Den vollständigen lokalen Klon und das private Remote behalten. Nach Prüfung committen und pushen; GitHub synchronisiert Dateien nicht automatisch. Ignorierte Einstellungen separat sichern. Doppelte ZIPs und entbehrliche Vorschauen entfernen, nicht Vorlagen oder Skripte.",
-    "publish": "Zuerst lokal ansehen. Öffentliche Bereitstellung und Sichtbarkeitsänderungen benötigen eine gesonderte Freigabe. Standard ist noindex. Die tatsächliche freigegebene HTTPS-URL angeben, um Canonical-, Open-Graph-, hreflang- und Sitemap-Angaben zu erzeugen. llms-Dateien garantieren keine Platzierung.",
+    "publish": "Die öffentliche GitHub-Pages-Bereitstellung ist unter der kanonischen Projekt-URL konfiguriert. Prüfe den ersten Actions-Lauf, bevor die Website als verfügbar gilt.",
     "validation": "Vorlagenstruktur, Links, Datenschutzmuster, Paket und Seiteninteraktionen werden lokal geprüft. Die früheren isolierten Renderer-Tests für 1.7.1 waren erfolgreich. Reale Provider-Aufrufe, Speichern mit der Erweiterung und vollständige Tests auf Windows, macOS und Linux stehen noch aus.",
     "limitations": "Der Originalinhalt kann nur Auswahl oder Markierungen enthalten. Der KI-Kontext ist begrenzt. Clipper 1.7.1 kann wörtliche Vorlagenausdrücke in KI-Varianten erneut auswerten; dafür Archive ohne Interpreter verwenden. Automatisches Kopieren zwischen Vaults ist nicht implementiert.",
     "headings": [
@@ -243,7 +243,7 @@
     ],
     "commands": "Befehle",
     "notes": "Hinweise",
-    "status": "Private Prüffassung",
+    "status": "Öffentliche Version · GitHub Pages",
     "file": "Dateivorlagen",
     "file_rules": "Jede neue Datei braucht einen tatsächlichen Zweck, eine Datenklassifikation, gegebenenfalls Quellenangaben und passende Prüfungen. Notizen verwenden einfaches YAML; Code einen kurzen nützlichen Kopfkommentar. Kommentare erklären Gründe und Einschränkungen, statt Code zu wiederholen. Keine Tests oder Ergebnisse erfinden.",
     "readme": "Überblick",
@@ -255,7 +255,7 @@
     "resume": "Animation fortsetzen",
     "map": "Alle Dateien der Version, verbunden",
     "flow": "Von der Webseite zur dauerhaften Notiz",
-    "access": "Solange das Repository privat ist, benötigen die Links GitHub-Zugriff."
+    "access": "Die Repository-Dateien sind auf GitHub öffentlich."
   },
   "fr-FR": {
     "name": "Français",
@@ -269,7 +269,7 @@
     "sources": "Utilisez des liens Markdown vers des URL vérifiées sur GitHub et des wikiliens distincts pour les notes Obsidian existantes. Documentez URL d’origine, révision, licence, fichiers repris et modifications avant diffusion. N’inventez ni crédits ni compatibilité des licences.",
     "starter": "Modifiez les métadonnées simples de project-template/Proposal.md puis générez un nouveau dossier vide avec new_project.py. Le générateur ne crée pas de dépôt distant, ne pousse rien, ne publie pas et n’implémente pas l’application. Vérifiez noms, courriel, URL et licence avant diffusion.",
     "storage": "Conservez le clone local complet et le dépôt distant privé. Faites commit et push après vérification ; GitHub ne synchronise pas les fichiers automatiquement. Sauvegardez séparément les paramètres ignorés. Supprimez les ZIP en double et les aperçus jetables, pas les sources ni les scripts.",
-    "publish": "Prévisualisez localement. La publication et les changements de visibilité demandent une approbation distincte. Le site utilise noindex par défaut. Indiquez l’URL HTTPS réelle et approuvée pour générer canonical, Open Graph, hreflang et sitemap. Les fichiers llms ne garantissent aucun classement.",
+    "publish": "Le déploiement public GitHub Pages est configuré à l’URL canonique du projet. Vérifiez la première exécution avant de considérer le site comme disponible.",
     "validation": "Structure, liens, motifs de confidentialité, paquet et interactions du site sont vérifiés localement. Les précédents tests isolés du moteur 1.7.1 ont réussi. Les appels réels au fournisseur, l’enregistrement par l’extension et les tests complets Windows, macOS et Linux restent à effectuer.",
     "limitations": "Le contenu original peut être une sélection ou des passages surlignés. Le contexte IA est limité. Clipper 1.7.1 peut réévaluer des expressions littérales dans les variantes IA ; utilisez Archive sans Interpreter si nécessaire. La copie automatique entre coffres n’est pas implémentée.",
     "headings": [
@@ -286,7 +286,7 @@
     ],
     "commands": "Commandes",
     "notes": "Remarques",
-    "status": "Version privée à vérifier",
+    "status": "Version publique · GitHub Pages",
     "file": "Modèles de fichiers",
     "file_rules": "Chaque nouveau fichier doit préciser son rôle réel, sa classification des données, ses sources pertinentes et ses vérifications utiles. Les notes utilisent un YAML simple ; le code un en-tête bref et utile. Les commentaires expliquent raisons et contraintes sans répéter le code. N’inventez ni tests ni résultats.",
     "readme": "Présentation",
@@ -298,6 +298,6 @@
     "resume": "Reprendre l’animation",
     "map": "Tous les fichiers de la version, reliés",
     "flow": "De la page à une note durable",
-    "access": "Les liens nécessitent un accès GitHub tant que le dépôt est privé."
+    "access": "Les fichiers du dépôt sont publics sur GitHub."
   }
 }

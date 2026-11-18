@@ -21,7 +21,7 @@
 
 ## Remote state
 
-The initial commit was pushed to main in the private repository. The Template
+The initial commit was pushed to main in the repository, which was private at the time. The Template
 repository flag is verified true. The validate workflow is active, but its first
 run returned startup_failure before jobs were created. No passing remote CI
 result is claimed. Repository rulesets need a supporting private-repository plan.
@@ -71,4 +71,13 @@ No claim of zero secret risk or universal webpage capture is made.
 - Added a motion-reduced static image and a pause/resume control to each generated language page; preserved noindex output.
 - Refreshed the English README intro and updated localized README/guide version labels.
 - `python3 scripts/validate.py`, `python3 scripts/smoke_check.py`, and `git diff --check` passed. `python3 scripts/package_release.py` created and verified the 185-file v0.1.2 archive, manifest, and checksums.
-- Settings edit remains blocked (GitHub API HTTP 403; browser control runtime unavailable). Visibility remains private; template flag remains enabled.
+- Settings edit remains blocked (GitHub API HTTP 403; browser control runtime unavailable). At the time of this v0.1.2 check, the repository remained private; the owner has since made it public. The template flag remains enabled.
+
+
+## Public GitHub Pages deployment
+
+- Owner confirmed the repository is public and authorized site indexing/deployment.
+- Added `.github/workflows/deploy-pages.yml`; it enables Pages, builds with the canonical project URL and `--indexable`, validates the output, and deploys the `site/` artifact.
+- Checked-in generated pages are built with the canonical URL and indexable robots/sitemap metadata.
+- Deployment must be confirmed from the GitHub Actions run; the Pages API reported 404 before this workflow was added.
+- Repository About description and topics could not be changed through the connected integration (HTTP 403); the browser UI runtime is unavailable.

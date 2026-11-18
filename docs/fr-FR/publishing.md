@@ -1,21 +1,9 @@
-# Publication et métadonnées
+# Publication et indexation
 
-Prévisualisez localement. La publication et les changements de visibilité demandent une approbation distincte. Le site utilise noindex par défaut. Indiquez l’URL HTTPS réelle et approuvée pour générer canonical, Open Graph, hreflang et sitemap. Les fichiers llms ne garantissent aucun classement.
+[English](../en-US/publishing.md) · [Accueil](../../README.md)
 
-```bash
-python3 scripts/build_site.py
-python3 -m http.server 8000 --bind 127.0.0.1 --directory site
-```
+GitHub Pages est configuré à l’adresse `https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/`. Le workflow construit le site en sept langues avec les URL canoniques, Open Graph/Twitter, JSON-LD, un sitemap et des règles robots indexables, puis le publie après chaque push sur `main`. Vérifiez la première exécution Actions avant de considérer le site disponible.
 
-Utilisez des données de démonstration. Excluez paramètres locaux, identifiants, notes privées et chemins personnels. Un dépôt privé ne protège pas un secret déjà enregistré dans l’historique. Le titulaire a autorisé uniquement l’attribution indiquée ci-dessous.
+Build local : `python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable`. Le script ne publie pas ; GitHub Actions déploie le site.
 
-[Guide du projet](guide.md)
-
-Le README est du Markdown rendu ; les métadonnées Open Graph, Twitter, canonical
-et JSON-LD appartiennent au site généré. L’image de prévisualisation compacte se
-trouve dans [assets/social-preview.jpg](../../assets/social-preview.jpg). Vous
-pouvez la téléverser dans GitHub Settings → Social preview. Les noms des topics
-GitHub sont publics même si le dépôt est privé ; attendez l’autorisation avant
-de les ajouter. Google précise que llms.txt ne modifie ni la visibilité ni le
-classement dans Google Search et qu’aucun balisage spécial n’est requis pour la
-recherche avec IA.
+L’image Open Graph est statique (`assets/social-preview.jpg`) ; le GIF explicatif est distinct. La description About, les sujets et l’image sociale GitHub se gèrent dans Settings ; la connexion actuelle ne peut pas les modifier.
