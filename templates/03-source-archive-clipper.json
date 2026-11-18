@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "0.1.0",
+  "name": "General - Source Archive",
+  "behavior": "create",
+  "noteContentFormat": "{% set sourceTicks = content|replace:\"/[^`]/g\":\"\" %}\n# {{title}}\n\n> [!info]- Source evidence\n> \n> Directly extracted values; blank values were not supplied.\n> \n> ````markdown\n> URL:\n{{url|replace:\"/^/gm\":\"> \"}}\n> Site:\n{{site|replace:\"/^/gm\":\"> \"}}\n> Author:\n{{author|replace:\"/^/gm\":\"> \"}}\n> Published (raw):\n{{published|replace:\"/^/gm\":\"> \"}}\n> Captured:\n{{time|replace:\"/^/gm\":\"> \"}}\n> ````\n\n---\n\n> [!example]- Original content\n> \n> Untruncated Clipper content; may contain only your selection or highlights.\n> \n> ````{{sourceTicks}}markdown\n{{content|replace:\"/^/gm\":\"> \"}}\n> ````{{sourceTicks}}\n\n---\n\nSource: {{url}}\nCaptured: {{time}}\n",
+  "properties": [
+    {
+      "name": "title",
+      "value": "{{title}}",
+      "type": "text"
+    },
+    {
+      "name": "source",
+      "value": "{{url}}",
+      "type": "text"
+    },
+    {
+      "name": "site",
+      "value": "{{site}}",
+      "type": "text"
+    },
+    {
+      "name": "domain",
+      "value": "{{domain}}",
+      "type": "text"
+    },
+    {
+      "name": "author",
+      "value": "{{author}}",
+      "type": "multitext"
+    },
+    {
+      "name": "description",
+      "value": "{{description}}",
+      "type": "text"
+    },
+    {
+      "name": "language",
+      "value": "{{language}}",
+      "type": "text"
+    },
+    {
+      "name": "published",
+      "value": "{% if published %}{{published|date:\"YYYY-MM-DD\"}}{% endif %}",
+      "type": "date"
+    },
+    {
+      "name": "captured",
+      "value": "{{time|date:\"YYYY-MM-DDTHH:mm:ss\"}}",
+      "type": "datetime"
+    },
+    {
+      "name": "canonical",
+      "value": "{{selector:link[rel=\"canonical\"]?href}}",
+      "type": "text"
+    },
+    {
+      "name": "schema_type",
+      "value": "{{schema:@type}}",
+      "type": "text"
+    },
+    {
+      "name": "tags",
+      "value": "clippings",
+      "type": "multitext"
+    },
+    {
+      "name": "status",
+      "value": "pending-review",
+      "type": "text"
+    }
+  ],
+  "triggers": [],
+  "noteNameFormat": "{{date|date:\"YYYY-MM-DD\"}} - {{title|safe_name:windows}}",
+  "path": "clippings",
+  "vault": "Demo Vault",
+  "context": ""
+}

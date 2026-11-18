@@ -1,0 +1,19 @@
+# Credentials, personal configuration and private notes never belong in Git.
+.env
+.env.*
+!.env.example
+local-only/
+private/
+secrets/
+**/obsidian-web-clipper-settings*.json
+**/*settings-export*.json
+**/*.key
+**/*.pem
+.obsidian/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+dist/
+playwright-report/
+test-results/

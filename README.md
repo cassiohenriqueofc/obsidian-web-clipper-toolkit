@@ -1,0 +1,190 @@
+[English (US)](README.md) · [Português (Brasil)](README.pt-BR.md) · [Español (Argentina)](README.es-AR.md) · [Español (México)](README.es-MX.md) · [Español (España)](README.es-ES.md) · [Deutsch](README.de-DE.md) · [Français](README.fr-FR.md)
+
+<p align="right"><strong>English (US)</strong> · <a href="README.pt-BR.md">Português (Brasil)</a></p>
+
+![Web to Notes — capture, interpret, keep the source](assets/banner.png)
+
+# Obsidian Web Clipper Toolkit
+
+**Capture the web. Interpret deliberately. Keep the source.**
+
+| Release | Updated | Documentation | Template language | License |
+| --- | --- | --- | --- | --- |
+| 0.1.0 | November 18, 2026 | en-US · pt-BR · es-AR · es-MX · es-ES · de-DE · fr-FR | English | Noncommercial source-available |
+
+## Introduction
+
+A small, inspectable collection of JSON templates for Obsidian Web Clipper.
+Use manual Interpreter prompts to turn supplied page evidence into explained
+Markdown notes while retaining the original content variable. Choose a detailed
+capture, a shorter footer layout, or a source-only archive without AI.
+
+This is a community project, not an official Obsidian product. Version 0.1.0 is
+a private review release. Local structure checks passed; live provider execution,
+Windows/macOS/Linux saves, and rendering in your installed Obsidian remain to be
+verified. Baseline versions reported by the original user: Web Clipper 1.7.1 and
+Obsidian 1.15.1 on Windows; this is not a claim of full compatibility testing.
+
+## Menu
+
+[Why use it](#why-use-it) · [Deliverables](#deliverables) · [Install](#install-and-use)
+· [Windows](docs/en-US/install.md#windows) · [macOS](docs/en-US/install.md#macos)
+· [Linux](docs/en-US/install.md#linux) · [Prompt map](docs/en-US/prompt-map.md)
+· [Animated file map](#animated-file-map) · [Version control](docs/en-US/development.md)
+· [Publication](docs/en-US/publishing.md) · [Português](README.pt-BR.md)
+
+## Why use it
+
+- Keep source evidence alongside the model's explanations.
+- Use foldable callouts, fenced copyable text, and interactive tasks outside fences.
+- Reuse explicit prompts with clear output destinations and bounded context.
+- Review uncertain claims instead of treating generated text as established fact.
+- Keep portable Markdown/JSON and version every project change with Git.
+- Use a no-AI archive if the provider is unavailable or source preservation matters most.
+
+## Compared with capture without Interpreter
+
+| Capability | Typical direct-variable template | This toolkit with manual Interpreter |
+| --- | --- | --- |
+| Page content and metadata | Direct extraction | Direct extraction retained |
+| Explanation of key ideas | Source text as captured | Proposed source-grounded explanation |
+| Follow-up actions | Usually manually authored | Suggested actions for review |
+| Research/project ideas | Usually manually authored | Labeled suggestions, never invented rankings |
+| Cost and dependency | No model dependency | Provider/model access; cost and latency may apply |
+| Source preservation | Depends on template | Untruncated supplied content in all three styles |
+| Accuracy | Extraction can be incomplete | Extraction limits plus model error; review required |
+
+These are design differences, not benchmarked performance or guaranteed accuracy.
+
+## Deliverables
+
+| Rank¹ | Template | Fit | Main benefit | Tradeoff |
+| --- | --- | --- | --- | --- |
+| 1 | [Balanced](templates/01-balanced-original-callout-clipper.json) | 9/10 | Six prompts, project brief, collapsed source | More AI output |
+| 2 | [Compact](templates/02-compact-original-footer-clipper.json) | 8.5/10 | Four prompts, original near footer | Fewer analytical sections |
+| 3 | [Archive](templates/03-source-archive-clipper.json) | 8/10 | No AI prompts | No generated analysis |
+
+¹Editorial fit ratings for the requested workflow, not empirical scores.
+
+Also included: [proposal](project/proposal-plan.md), [capture specification](project/capture-spec.md),
+[handoff](handoff.md), [examples](examples/), [validation record](docs/en-US/template-validation.md),
+[privacy rules](SECURITY.md), multilingual tutorials, generated banner, an animated
+clickable file map, SEO/LLM metadata tooling, package scripts, and GitHub CI.
+Original personal settings exports and uploaded source documents are deliberately excluded.
+
+## Install and use
+
+1. Install [Obsidian](https://obsidian.md/download) and the official
+   [Web Clipper extension](https://obsidian.md/clipper) for a supported browser.
+2. Open a vault and create its `clippings` folder.
+3. Import one JSON using **Web Clipper Settings → Templates → Import**.
+4. Replace the demo vault name in the capture panel. Optionally generate private
+   customized templates using the command below.
+5. Enable Interpreter locally, configure your provider, and **leave automatic
+   execution disabled**. Credentials go into extension settings, never this repo.
+6. Open a page, select the template, manually click **Interpret**, inspect the
+   result, and save. For Archive, do not run Interpreter.
+
+```powershell
+# Windows PowerShell, from this project's root; Python 3.10+ required
+py -3 scripts/configure_templates.py --vault "Demo Vault" --folder "clippings"
+py -3 scripts/validate.py
+```
+
+```bash
+# macOS or Linux, from this project's root; Python 3.10+ required
+python3 scripts/configure_templates.py --vault "Demo Vault" --folder "clippings"
+python3 scripts/validate.py
+```
+
+Customized files go into ignored `local-only/templates/`. Import those files if
+you used customization. The tracked templates remain demo-safe. A vault-relative
+folder is required; do not pass an absolute operating-system path.
+
+Read the full [cross-platform tutorial](docs/en-US/install.md), including backup,
+ZIP extraction, browser requirements, and copying a saved note into a second vault.
+Template JSON alone cannot enforce the global manual-execution setting.
+
+## Animated file map
+
+The static website contains seven-language navigation, a linked workflow,
+an animated repository graph, a link for every release file, and a pause control.
+It uses no analytics, CDN, provider calls, or external JavaScript.
+
+```powershell
+py -3 scripts/build_site.py
+py -3 -m http.server 8000 --bind 127.0.0.1 --directory site
+Start-Process "http://127.0.0.1:8000/en-US/"
+```
+
+```bash
+python3 scripts/build_site.py
+python3 -m http.server 8000 --bind 127.0.0.1 --directory site
+# Open http://127.0.0.1:8000/en-US/ in your browser.
+```
+
+Public hosting is **not enabled**. GitHub does not render arbitrary HTML pages
+as an interactive website in the file viewer. See [publication instructions](docs/en-US/publishing.md).
+The linked graph is a repository map; Open Graph is separate social-preview metadata.
+
+## SEO and information for language models
+
+Documentation pages have descriptive titles, language links, structured data,
+and a static text summary. `llms.txt` and `llms-full.txt` expose an editable
+navigation/overview for compatible tools; they do not guarantee indexing or rankings.
+The default site is `noindex` while private and lacks a fabricated public canonical.
+The build script adds absolute canonical, alternate-language, and Open Graph URLs
+only when you supply the real approved deployment URL.
+
+## Known limits
+
+- `content` can be a selection or highlights rather than the entire page.
+- AI context is bounded; the saved original-content variable is not sliced.
+- Clipper 1.7.1 can reprocess literal template expressions in AI source blocks.
+  Use Archive without Interpreter for those pages and inspect the saved source.
+- Single structural `>` prefixes create separate callouts, not nested callouts.
+  Original source `>` characters remain literal inside its fence.
+- Actual browser/URI/clipboard limits may affect very large captures.
+- There is no installed automatic dual-vault copy, web research, or vault-link verifier.
+- Existing global property types may override imported property declarations.
+
+## Privacy, versions, and contributions
+
+Run `python3 scripts/validate.py` before committing. It checks templates,
+documentation links, private-export paths, and common credential/personal-path
+patterns. It is a useful gate, not a guarantee of detecting every secret.
+Use feature branches, review the staged diff, update [CHANGELOG.md](CHANGELOG.md),
+and follow [CONTRIBUTING.md](CONTRIBUTING.md). Git authors should use GitHub noreply
+email addresses if they want their personal email hidden.
+
+## License
+
+[Noncommercial Source-Available License 1.0](LICENSE). Commercial use is prohibited
+without separate permission. Shared modified versions must retain attribution,
+the license, corresponding source, and a dated modification log. Private edits
+do not have to be published. Contributions use commits; the license does not
+force every private edit into Git. This is **not OSI-approved open source**.
+See [third-party notices](THIRD_PARTY_NOTICES.md).
+
+## Reusable project starter
+
+Edit the flat frontmatter in project-template/Proposal.md. Render a new, empty directory using new_project.py. The generator never creates a remote, pushes, deploys, or implements the application. Review names, email, URLs and license before publishing.
+
+```powershell
+py -3 scripts/new_project.py --proposal project-template/Proposal.md --output local-only/new-project
+```
+
+```bash
+python3 scripts/new_project.py --proposal project-template/Proposal.md --output local-only/new-project
+```
+
+[Project guide](docs/en-US/guide.md) · [aimemory](aimemory/project-defaults.md)
+
+**Developed by:** Cassio Henrique · Múltipla Tecnologia · [cassiohenriqueofc@gmail.com](mailto:cassiohenriqueofc@gmail.com)
+
+<details>
+<summary>Animated workflow / Fluxo animado</summary>
+
+![Page to template, manual interpretation, source-preserving Markdown and private Git versions](assets/workflow.gif)
+
+</details>

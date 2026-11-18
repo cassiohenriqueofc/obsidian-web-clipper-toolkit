@@ -1,0 +1,20 @@
+"""Baseline privacy check; use demo data and review diffs even when it passes."""
+from pathlib import Path
+import re
+import sys
+
+root=Path(__file__).resolve().parents[1]
+approved_email={{contact_email_json}}
+skip={'.git','local-only','private','secrets','dist','node_modules','.venv','__pycache__'}
+errors=[]
+for path in root.rglob('*'):
+    if not path.is_file() or any(part in skip for part in path.relative_to(root).parts):continue
+    if path.name.startswith('.env') and path.name!='.env.example':errors.append(str(path.relative_to(root))+': private environment file')
+    try:text=path.read_text(encoding='utf-8')
+    except UnicodeDecodeError:continue
+    if re.search(r'\b(?:sk-[A-Za-z0-9_-]{20,}|gh[pousr]_[A-Za-z0-9]{20,})',text):errors.append(str(path.relative_to(root))+': possible credential; value suppressed')
+    for email in re.findall(r'[A-Za-z0-9_.+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}',text):
+        if email!=approved_email and not email.endswith(('.invalid','@example.com')):errors.append(str(path.relative_to(root))+': unapproved email; value suppressed')
+if errors:
+    print('\n'.join(errors));sys.exit(1)
+print('Baseline privacy patterns passed. Review staged files and actual project behavior separately.')
