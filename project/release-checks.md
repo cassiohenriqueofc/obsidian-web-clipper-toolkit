@@ -90,3 +90,13 @@ No claim of zero secret risk or universal webpage capture is made.
 - GitHub Actions run `44402578776` and its retry both failed before steps started. GitHub annotated the job: “The job was not started because your account is locked due to a billing issue.”
 - Pages creation via the connected GitHub API returned HTTP 403. The site is not deployed. After billing is resolved and repository settings access is available, rerun the workflow and verify the Pages URL.
 - About description, topics, and repository social-preview settings remain unchanged; API/UI access is unavailable.
+
+
+## v0.1.4 SEO and handoff preparation — 2026-11-19
+
+- Created a 1200 × 630 JPEG social image and added it to the static site output.
+- Updated page metadata, language alternates, `x-default`, Open Graph/Twitter image dimensions and alt text, and SoftwareSourceCode JSON-LD.
+- Added accessible root language navigation, a custom noindex 404, and a seven-locale sitemap with the Proposal date as `lastmod`.
+- Updated publishing instructions in all seven locales and recorded personal-site metadata separation in the SEO review.
+- `python3 scripts/build_site.py --base-url https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/ --indexable`, `python3 scripts/validate.py`, `python3 scripts/smoke_check.py`, sitemap/metadata assertions, and `git diff --check` passed locally. The release packager created and verified a 191-file `obsidian-web-clipper-v0.1.4.zip` with manifest and checksums.
+- No GitHub Pages deploy, Search Console verification, sitemap submission, or GitHub Settings update was possible in this session. Actions remains blocked by billing; About/topics/social-preview settings remain pending.

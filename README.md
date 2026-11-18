@@ -15,7 +15,7 @@
 <p align="center"><img src="https://img.shields.io/badge/Interpreter-manual-7562c4?style=flat-square" alt="Interpreter execution is manual"> <img src="https://img.shields.io/badge/Docs-7%20languages-258c72?style=flat-square" alt="Documentation in seven languages"> <img src="https://img.shields.io/badge/License-noncommercial-9863c5?style=flat-square" alt="Custom noncommercial license"></p>
 
 <p align="center">
-  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.3">Download v0.1.3</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
+  <a href="https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit/releases/tag/v0.1.3">Download latest published version (v0.1.3)</a> · <a href="docs/en-US/install.md">Installation guide</a> · <a href="templates/">Browse templates</a> · <a href="docs/en-US/prompt-map.md">Prompt map</a> · <a href="docs/en-US/sources.md">Sources</a>
 </p>
 
 <p align="center"><em>Turn a captured page into a reviewed, source-preserving Obsidian note.</em></p>
@@ -81,7 +81,7 @@ Then import the customized files from `local-only/templates/`. See the [Windows,
 - [Privacy and data handling](docs/en-US/privacy.md) · [License](LICENSE) · [Credits](docs/en-US/sources.md)
 - [Search and social metadata review](project/seo-review.md) · [Publication guide](docs/en-US/publishing.md)
 - [Current proposal](Proposal.md) · [Release checks](project/release-checks.md) · [Change log](CHANGELOG.md)
-- [Seven-language interactive site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/) · [Source file map](site/en-US/). Repository files are public on GitHub.
+- [Seven-language interactive site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/) (deployment pending) · [Generated site files](site/en-US/). Repository files are public on GitHub.
 
 ## Compatibility and status
 
