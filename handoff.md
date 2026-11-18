@@ -1,4 +1,4 @@
-# Project handoff — 0.1.0
+# Project handoff — 0.1.1
 
 ## Current state
 

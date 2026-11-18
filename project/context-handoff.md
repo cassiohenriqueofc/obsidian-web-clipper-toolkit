@@ -34,3 +34,8 @@ continue only outstanding work. Do not replay this chat, regenerate completed
 templates, invent tests, or interpret deferred phases as authorized.
 
 Initial private push completed. Preventative scaffold privacy fixes and the independent model review are included before the release package. Next: verify final remote commit/tag/release assets; keep public hosting disabled.
+
+
+## 0.1.1 update
+
+The owner approved a repository rename to obsidian-web-clipper-toolkit, a README/site refresh, search metadata preparation, and a new sanitized ZIP. The repository remains private and the site remains noindex.

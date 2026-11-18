@@ -2,20 +2,20 @@
 project_name: "Obsidian Web Clipper Toolkit"
 project_slug: "obsidian-web-clipper"
 summary: "Manual Interpreter templates with source retention and a reusable private-project starter."
-version: "0.1.0"
+version: "0.1.1"
 date: "2026-11-18"
 default_language: "en-US"
 author_name: "Cassio Henrique"
 company_name: "Múltipla Tecnologia"
 contact_email: "cassiohenriqueofc@gmail.com"
-repository_url: "https://github.com/cassiohenriqueofc/obsidian-web-cliper"
+repository_url: "https://github.com/cassiohenriqueofc/obsidian-web-clipper-toolkit"
 landing_page_url: null
 content_type: "SoftwareSourceCode"
 license_id: "LicenseRef-Noncommercial-Source-Available-1.0"
 data_classification: "demo-only"
 ---
 
-# Revised proposal — 0.1.0
+# Revised proposal — 0.1.1
 
 ## Problem and result
 
@@ -34,7 +34,9 @@ seven documentation locales, attribution, memory rules and a repository/file map
 5. Reusable Proposal.md variable contract, README/license/ignore/note/code templates.
 6. Project-only default: local Git clone plus private GitHub remote. No repositories
    for everyday tasks or simple chats. Portable aimemory and AGENTS instructions.
-7. A sanitized ZIP, manifest and checksums in the first private release.
+7. A sanitized ZIP, manifest and checksums in each private release.
+8. A polished, multilingual README and site entry point, corrected repository naming,
+   and social metadata prepared without enabling public indexing or hosting.
 
 ## Publication and license decisions
 

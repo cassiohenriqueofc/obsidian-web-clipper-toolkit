@@ -1,5 +1,13 @@
 # Change log
 
+## 0.1.1 — 2026-11-18
+
+- Rename the repository to `obsidian-web-clipper-toolkit` and update repository links.
+- Reshape the English README around the toolkit, templates, quick start, and review limits.
+- Add clear language navigation and section links to localized README files.
+- Improve static-site descriptions and social metadata while preserving default noindex.
+- Record current SEO guidance, GitHub discovery constraints, and publication steps.
+
 ## 0.1.0 — 2026-11-18
 
 - Package three general Web Clipper templates with demo-only vault configuration.

@@ -4,7 +4,10 @@
 
 # Obsidian Web Clipper Toolkit
 
-Aktualisiert: 2026-11-18 · 0.1.0 · Private Prüffassung
+
+[Installation](docs/de-DE/install.md) · [Vorlagen](templates/) · [Prompt-Übersicht](docs/de-DE/prompt-map.md) · [Beispiele](examples/) · [Lizenz](LICENSE)
+
+Aktualisiert: 2026-11-18 · 0.1.1 · Private Prüffassung
 
 ## Überblick
 

@@ -29,3 +29,11 @@ Open Graph é a prévia social; o mapa animado é outra função. llms.txt e
 llms-full.txt ajudam clientes compatíveis, sem prometer indexação ou ranking.
 Revise licença, histórico, exemplos e dados antes de publicar. Mudar a
 visibilidade ou ativar hospedagem pública exige autorização separada.
+
+O README é Markdown renderizado; metadados Open Graph, Twitter, canonical e
+JSON-LD ficam no site gerado. A imagem compacta para prévia está em
+[assets/social-preview.jpg](../../assets/social-preview.jpg). Se quiser, envie-a
+em GitHub Settings → Social preview. Os nomes dos tópicos do GitHub são públicos
+mesmo quando o repositório é privado; aguarde a aprovação antes de adicioná-los.
+A documentação do Google informa que llms.txt não altera visibilidade ou ranking
+do Google Search e que não há schema especial exigido para a busca com IA.
