@@ -1,11 +1,17 @@
 # Change log
 
+## 0.1.5 — SEO playbook and proposal guide
+
+- Add an Obsidian-ready SEO and indexing playbook with current status, locale metadata, platform preview mockups, Mermaid diagrams, sources, and a reusable proposal checklist.
+- Link the playbook from the README, SEO review, generated LLM guide, and site file map.
+
 ## 0.1.4 — SEO metadata and handoff
 
 - Add a 1200 × 630 social image for generated Open Graph and Twitter previews.
 - Add canonical URLs, seven-language alternates, x-default, image dimensions, and accessibility metadata to indexable pages.
 - Add a noindex language chooser and a noindex 404 page; publish a sitemap with the Proposal date as lastmod.
 - Document indexing limits and create a dated handoff; no deployment or search indexing is claimed.
+- Add an Obsidian-ready SEO playbook with current locale metadata, platform preview mockups, indexing status, diagrams, and a proposal checklist.
 
 
 ## 0.1.3 — Public site configuration

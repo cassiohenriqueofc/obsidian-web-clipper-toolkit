@@ -2,8 +2,8 @@
 project_name: "Obsidian Web Clipper Toolkit"
 project_slug: "obsidian-web-clipper-toolkit"
 summary: "Manual Interpreter templates with source retention and a reusable private-project starter."
-version: "0.1.4"
-date: "2026-11-19"
+version: "0.1.5"
+date: "2026-11-18"
 default_language: "en-US"
 author_name: "Cassio Henrique"
 company_name: "Múltipla Tecnologia"
@@ -15,7 +15,7 @@ license_id: "LicenseRef-Noncommercial-Source-Available-1.0"
 data_classification: "public project; demo-only examples"
 ---
 
-# Revised proposal — 0.1.4
+# Revised proposal — 0.1.5
 
 ## Problem and result
 

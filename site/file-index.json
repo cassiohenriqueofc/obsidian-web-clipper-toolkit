@@ -154,6 +154,7 @@
   "project/release-checks.md",
   "project/repository-protection.md",
   "project/seo-review.md",
+  "project/seo-signals-and-indexing-playbook.md",
   "references/README.md",
   "scripts/build_feature_flow.sh",
   "scripts/build_site.py",

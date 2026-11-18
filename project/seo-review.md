@@ -80,7 +80,9 @@ pages qualify for supported search features; it does not guarantee a rich result
 - [GitHub repository search guidance](https://docs.github.com/en/search-github/searching-on-github/searching-for-repositories)
 
 
-## Technical corrections (2026-11-19)
+## Technical corrections (2026-11-18)
+
+The reusable, Obsidian-ready reference is [SEO signals and website proposal playbook](seo-signals-and-indexing-playbook.md). It includes the current indexing state, page metadata, platform mockups, and a proposal checklist.
 
 The supplied SEO notes mixed a personal portfolio identity and the personal domain with this toolkit. They were not imported: the repository has its own GitHub Pages URL and no authorized custom domain. The notes' recommendations were checked against the actual static Python build instead of treating their personal-site instructions as project requirements.
 

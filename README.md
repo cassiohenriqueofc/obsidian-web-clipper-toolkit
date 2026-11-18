@@ -80,6 +80,7 @@ Then import the customized files from `local-only/templates/`. See the [Windows,
 - [Reusable project starter](docs/en-US/github-template.md) · [Proposal format](project-template/Proposal.md)
 - [Privacy and data handling](docs/en-US/privacy.md) · [License](LICENSE) · [Credits](docs/en-US/sources.md)
 - [Search and social metadata review](project/seo-review.md) · [Publication guide](docs/en-US/publishing.md)
+- [SEO signals and website proposal playbook](project/seo-signals-and-indexing-playbook.md) · [Next-session handoff](project/handoff-2026-11-19.md)
 - [Current proposal](Proposal.md) · [Release checks](project/release-checks.md) · [Change log](CHANGELOG.md)
 - [Seven-language interactive site](https://cassiohenriqueofc.github.io/obsidian-web-clipper-toolkit/) (deployment pending) · [Generated site files](site/en-US/). Repository files are public on GitHub.
 
